@@ -1,0 +1,1441 @@
+Date,Time,Day,Location,Crowd_Level,Occupancy,Capacity,Waiting_Time_Min,Available_Seats,Data_Type
+2026-10-19,08:00,Monday,"Central Library",Low,56,180,0,124,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Cafeteria",Medium,82,220,5,138,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Main Block",Low,87,300,0,213,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Computer Lab",Low,25,90,0,65,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Study Area",Low,15,100,0,85,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Sports Complex",Low,17,160,0,143,Synthetic demonstration data
+2026-10-19,08:00,Monday,"Student Lounge",Low,15,80,0,65,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Cafeteria",Medium,120,220,11,100,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Main Block",Medium,144,300,0,156,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Study Area",Medium,39,100,0,61,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Auditorium",Low,81,400,0,319,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-10-19,10:00,Monday,"Student Lounge",Medium,33,80,0,47,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Central Library",Medium,112,180,0,68,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Cafeteria",High,190,220,19,30,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Main Block",Medium,176,300,0,124,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Computer Lab",Medium,61,90,0,29,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Study Area",Medium,49,100,0,51,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Auditorium",Medium,143,400,0,257,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Sports Complex",Medium,63,160,0,97,Synthetic demonstration data
+2026-10-19,12:00,Monday,"Student Lounge",Medium,42,80,0,38,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Central Library",High,128,180,0,52,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Cafeteria",High,178,220,18,42,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Main Block",Medium,169,300,0,131,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Study Area",Medium,45,100,0,55,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Auditorium",Low,128,400,0,272,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Sports Complex",Medium,63,160,0,97,Synthetic demonstration data
+2026-10-19,14:00,Monday,"Student Lounge",Medium,37,80,0,43,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Central Library",Medium,101,180,0,79,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Cafeteria",Medium,119,220,10,101,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Main Block",Medium,145,300,0,155,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Computer Lab",Medium,35,90,0,55,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Auditorium",Low,63,400,0,337,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Sports Complex",Low,50,160,0,110,Synthetic demonstration data
+2026-10-19,16:00,Monday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Central Library",Low,60,180,0,120,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Cafeteria",Medium,98,220,7,122,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Main Block",Low,89,300,0,211,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Study Area",Low,23,100,0,77,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Sports Complex",Low,22,160,0,138,Synthetic demonstration data
+2026-10-19,18:00,Monday,"Student Lounge",Low,20,80,0,60,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Central Library",Low,55,180,0,125,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Cafeteria",Medium,80,220,5,140,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Main Block",Low,75,300,0,225,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Computer Lab",Low,20,90,0,70,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Study Area",Low,18,100,0,82,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Sports Complex",Low,12,160,0,148,Synthetic demonstration data
+2026-10-20,08:00,Tuesday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Cafeteria",Medium,121,220,11,99,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Main Block",Medium,122,300,0,178,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Auditorium",Low,70,400,0,330,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Sports Complex",Low,49,160,0,111,Synthetic demonstration data
+2026-10-20,10:00,Tuesday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Cafeteria",High,195,220,19,25,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Main Block",Medium,171,300,0,129,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Study Area",Medium,51,100,0,49,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Auditorium",Medium,185,400,0,215,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Sports Complex",Medium,72,160,0,88,Synthetic demonstration data
+2026-10-20,12:00,Tuesday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Central Library",High,125,180,0,55,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Cafeteria",High,185,220,18,35,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Main Block",Medium,164,300,0,136,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Study Area",Medium,47,100,0,53,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Auditorium",Medium,167,400,0,233,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Sports Complex",Medium,65,160,0,95,Synthetic demonstration data
+2026-10-20,14:00,Tuesday,"Student Lounge",Medium,35,80,0,45,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Central Library",Medium,106,180,0,74,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Cafeteria",Medium,111,220,8,109,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Main Block",Medium,135,300,0,165,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Study Area",Medium,35,100,0,65,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Auditorium",Low,121,400,0,279,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Sports Complex",Low,45,160,0,115,Synthetic demonstration data
+2026-10-20,16:00,Tuesday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Cafeteria",Medium,89,220,6,131,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Study Area",Low,23,100,0,77,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Sports Complex",Low,22,160,0,138,Synthetic demonstration data
+2026-10-20,18:00,Tuesday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Central Library",Low,57,180,0,123,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Cafeteria",Medium,81,220,5,139,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Main Block",Low,82,300,0,218,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-10-21,08:00,Wednesday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Central Library",Medium,118,180,0,62,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Cafeteria",Medium,123,220,10,97,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Main Block",Medium,150,300,0,150,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Computer Lab",Medium,45,90,0,45,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Auditorium",Low,66,400,0,334,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-10-21,10:00,Wednesday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Central Library",Medium,112,180,0,68,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Cafeteria",High,194,220,20,26,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Main Block",Medium,188,300,0,112,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Computer Lab",Medium,58,90,0,32,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Study Area",Medium,51,100,0,49,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Auditorium",Low,132,400,0,268,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Sports Complex",Medium,75,160,0,85,Synthetic demonstration data
+2026-10-21,12:00,Wednesday,"Student Lounge",Medium,40,80,0,40,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Central Library",High,131,180,0,49,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Cafeteria",High,178,220,17,42,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Main Block",Medium,164,300,0,136,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Study Area",Medium,42,100,0,58,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Auditorium",Low,112,400,0,288,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Sports Complex",Medium,60,160,0,100,Synthetic demonstration data
+2026-10-21,14:00,Wednesday,"Student Lounge",Medium,40,80,0,40,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Central Library",Medium,104,180,0,76,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Cafeteria",Medium,119,220,9,101,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Main Block",Medium,122,300,0,178,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Computer Lab",Medium,39,90,0,51,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Study Area",Low,35,100,0,65,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Auditorium",Low,68,400,0,332,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Sports Complex",Low,48,160,0,112,Synthetic demonstration data
+2026-10-21,16:00,Wednesday,"Student Lounge",Medium,28,80,0,52,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Central Library",Low,61,180,0,119,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Cafeteria",Medium,88,220,6,132,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Main Block",Low,91,300,0,209,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Study Area",Low,23,100,0,77,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Auditorium",Low,20,400,0,380,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-10-21,18:00,Wednesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Central Library",Low,49,180,0,131,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Cafeteria",Medium,80,220,6,140,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Main Block",Low,78,300,0,222,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Study Area",Low,15,100,0,85,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Sports Complex",Low,13,160,0,147,Synthetic demonstration data
+2026-10-22,08:00,Thursday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Central Library",Medium,107,180,0,73,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Cafeteria",Medium,123,220,11,97,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Main Block",Medium,140,300,0,160,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Auditorium",Low,74,400,0,326,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Sports Complex",Low,48,160,0,112,Synthetic demonstration data
+2026-10-22,10:00,Thursday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Central Library",Medium,119,180,0,61,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Cafeteria",High,191,220,18,29,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Main Block",Medium,190,300,0,110,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Computer Lab",High,62,90,0,28,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Study Area",Medium,55,100,0,45,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Auditorium",Medium,198,400,0,202,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Sports Complex",Medium,65,160,0,95,Synthetic demonstration data
+2026-10-22,12:00,Thursday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Central Library",High,129,180,0,51,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Cafeteria",High,171,220,17,49,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Main Block",Medium,166,300,0,134,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Computer Lab",Medium,56,90,0,34,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Auditorium",Medium,163,400,0,237,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Sports Complex",Medium,60,160,0,100,Synthetic demonstration data
+2026-10-22,14:00,Thursday,"Student Lounge",Medium,41,80,0,39,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Cafeteria",Medium,124,220,12,96,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Main Block",Medium,122,300,0,178,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Computer Lab",Medium,40,90,0,50,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Study Area",Low,33,100,0,67,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Auditorium",Low,119,400,0,281,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Sports Complex",Low,39,160,0,121,Synthetic demonstration data
+2026-10-22,16:00,Thursday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Cafeteria",Medium,91,220,7,129,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Main Block",Low,86,300,0,214,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Sports Complex",Low,26,160,0,134,Synthetic demonstration data
+2026-10-22,18:00,Thursday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Central Library",Low,56,180,0,124,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Cafeteria",Medium,82,220,5,138,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Main Block",Low,82,300,0,218,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Study Area",Low,17,100,0,83,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Sports Complex",Low,16,160,0,144,Synthetic demonstration data
+2026-10-23,08:00,Friday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Central Library",Medium,111,180,0,69,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Cafeteria",Medium,118,220,10,102,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Main Block",Medium,141,300,0,159,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Computer Lab",Medium,49,90,0,41,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Study Area",Medium,40,100,0,60,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Auditorium",Low,73,400,0,327,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-10-23,10:00,Friday,"Student Lounge",Medium,28,80,0,52,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Central Library",Medium,119,180,0,61,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Cafeteria",High,192,220,19,28,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Main Block",Medium,190,300,0,110,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Computer Lab",Medium,59,90,0,31,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Study Area",Medium,53,100,0,47,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Auditorium",Low,130,400,0,270,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Sports Complex",Medium,69,160,0,91,Synthetic demonstration data
+2026-10-23,12:00,Friday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Central Library",High,128,180,0,52,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Cafeteria",High,179,220,18,41,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Main Block",Medium,166,300,0,134,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Study Area",Medium,47,100,0,53,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Auditorium",Low,103,400,0,297,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Sports Complex",Medium,62,160,0,98,Synthetic demonstration data
+2026-10-23,14:00,Friday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Central Library",Medium,102,180,0,78,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Cafeteria",Medium,125,220,10,95,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Main Block",Medium,119,300,0,181,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Auditorium",Low,82,400,0,318,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Sports Complex",Low,42,160,0,118,Synthetic demonstration data
+2026-10-23,16:00,Friday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Central Library",Low,59,180,0,121,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Cafeteria",Medium,87,220,6,133,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Main Block",Low,82,300,0,218,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Study Area",Low,22,100,0,78,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Auditorium",Low,26,400,0,374,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Sports Complex",Low,23,160,0,137,Synthetic demonstration data
+2026-10-23,18:00,Friday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Central Library",Low,21,180,0,159,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Cafeteria",Low,51,220,1,169,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Main Block",Low,28,300,0,272,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Computer Lab",Low,9,90,0,81,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-24,08:00,Saturday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Central Library",Medium,84,180,0,96,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Cafeteria",Medium,91,220,6,129,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Main Block",Low,89,300,0,211,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Computer Lab",Medium,32,90,0,58,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Sports Complex",Low,27,160,0,133,Synthetic demonstration data
+2026-10-24,10:00,Saturday,"Student Lounge",Low,21,80,0,59,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Central Library",Medium,82,180,0,98,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Cafeteria",High,164,220,16,56,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Main Block",Medium,125,300,0,175,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Computer Lab",Medium,49,90,0,41,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Auditorium",Low,86,400,0,314,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Sports Complex",Low,41,160,0,119,Synthetic demonstration data
+2026-10-24,12:00,Saturday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Central Library",Medium,105,180,0,75,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Cafeteria",Medium,144,220,14,76,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Main Block",Medium,105,300,0,195,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Computer Lab",Medium,38,90,0,52,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Study Area",Low,30,100,0,70,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Auditorium",Low,53,400,0,347,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Sports Complex",Low,35,160,0,125,Synthetic demonstration data
+2026-10-24,14:00,Saturday,"Student Lounge",Low,24,80,0,56,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Central Library",Medium,81,180,0,99,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Cafeteria",Medium,83,220,4,137,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Main Block",Low,80,300,0,220,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Study Area",Low,22,100,0,78,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-10-24,16:00,Saturday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Central Library",Low,38,180,0,142,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Cafeteria",Low,56,220,3,164,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Main Block",Low,36,300,0,264,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Computer Lab",Low,10,90,0,80,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Study Area",Low,8,100,0,92,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-24,18:00,Saturday,"Student Lounge",Low,8,80,0,72,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Central Library",Low,20,180,0,160,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Cafeteria",Low,47,220,1,173,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Main Block",Low,29,300,0,271,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Computer Lab",Low,4,90,0,86,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-25,08:00,Sunday,"Student Lounge",Low,6,80,0,74,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Central Library",Medium,79,180,0,101,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Cafeteria",Medium,98,220,7,122,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Main Block",Low,81,300,0,219,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Sports Complex",Low,24,160,0,136,Synthetic demonstration data
+2026-10-25,10:00,Sunday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Central Library",Medium,83,180,0,97,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Cafeteria",High,164,220,17,56,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Main Block",Medium,132,300,0,168,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Study Area",Low,32,100,0,68,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Auditorium",Low,70,400,0,330,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-10-25,12:00,Sunday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Central Library",Medium,95,180,0,85,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Cafeteria",Medium,148,220,14,72,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Main Block",Medium,119,300,0,181,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Computer Lab",Medium,38,90,0,52,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Study Area",Low,31,100,0,69,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Auditorium",Low,44,400,0,356,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-10-25,14:00,Sunday,"Student Lounge",Low,24,80,0,56,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Central Library",Medium,75,180,0,105,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Cafeteria",Low,77,220,5,143,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Main Block",Low,87,300,0,213,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Computer Lab",Low,20,90,0,70,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Study Area",Low,23,100,0,77,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-10-25,16:00,Sunday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Central Library",Low,30,180,0,150,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Cafeteria",Low,53,220,2,167,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Main Block",Low,48,300,0,252,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Computer Lab",Low,9,90,0,81,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-25,18:00,Sunday,"Student Lounge",Low,8,80,0,72,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Central Library",Low,51,180,0,129,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Cafeteria",Medium,78,220,4,142,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Main Block",Low,84,300,0,216,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Sports Complex",Low,15,160,0,145,Synthetic demonstration data
+2026-10-26,08:00,Monday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Central Library",Medium,121,180,0,59,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Cafeteria",Medium,121,220,10,99,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Main Block",Medium,146,300,0,154,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Study Area",Medium,40,100,0,60,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Auditorium",Low,90,400,0,310,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Sports Complex",Low,52,160,0,108,Synthetic demonstration data
+2026-10-26,10:00,Monday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Central Library",Medium,120,180,0,60,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Cafeteria",High,187,220,19,33,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Main Block",Medium,182,300,0,118,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Computer Lab",Medium,57,90,0,33,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Study Area",Medium,52,100,0,48,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Auditorium",Low,128,400,0,272,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Sports Complex",Medium,71,160,0,89,Synthetic demonstration data
+2026-10-26,12:00,Monday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Central Library",High,127,180,0,53,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Cafeteria",High,178,220,18,42,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Main Block",Medium,170,300,0,130,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Study Area",Medium,45,100,0,55,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Auditorium",Low,105,400,0,295,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Sports Complex",Medium,61,160,0,99,Synthetic demonstration data
+2026-10-26,14:00,Monday,"Student Lounge",Medium,41,80,0,39,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Cafeteria",Medium,109,220,9,111,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Main Block",Medium,120,300,0,180,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Study Area",Medium,35,100,0,65,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Auditorium",Low,69,400,0,331,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Sports Complex",Low,44,160,0,116,Synthetic demonstration data
+2026-10-26,16:00,Monday,"Student Lounge",Low,28,80,0,52,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Central Library",Medium,64,180,0,116,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Cafeteria",Medium,90,220,8,130,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Main Block",Low,83,300,0,217,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Computer Lab",Low,23,90,0,67,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Sports Complex",Low,27,160,0,133,Synthetic demonstration data
+2026-10-26,18:00,Monday,"Student Lounge",Low,22,80,0,58,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Central Library",Low,59,180,0,121,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Cafeteria",Medium,77,220,5,143,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Main Block",Low,79,300,0,221,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Sports Complex",Low,17,160,0,143,Synthetic demonstration data
+2026-10-27,08:00,Tuesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Central Library",Medium,106,180,0,74,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Cafeteria",Medium,122,220,10,98,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Main Block",Medium,132,300,0,168,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Computer Lab",Medium,47,90,0,43,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Auditorium",Low,78,400,0,322,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-10-27,10:00,Tuesday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Central Library",Medium,113,180,0,67,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Cafeteria",High,187,220,18,33,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Main Block",Medium,172,300,0,128,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Computer Lab",Medium,60,90,0,30,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Study Area",Medium,52,100,0,48,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Auditorium",Medium,179,400,0,221,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Sports Complex",Medium,71,160,0,89,Synthetic demonstration data
+2026-10-27,12:00,Tuesday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Central Library",High,132,180,1,48,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Cafeteria",High,186,220,19,34,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Main Block",Medium,161,300,0,139,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Auditorium",Medium,155,400,0,245,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Sports Complex",Medium,62,160,0,98,Synthetic demonstration data
+2026-10-27,14:00,Tuesday,"Student Lounge",Medium,41,80,0,39,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Central Library",Medium,105,180,0,75,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Cafeteria",Medium,118,220,10,102,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Main Block",Medium,128,300,0,172,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Computer Lab",Medium,36,90,0,54,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Auditorium",Low,108,400,0,292,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Sports Complex",Low,40,160,0,120,Synthetic demonstration data
+2026-10-27,16:00,Tuesday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Central Library",Low,56,180,0,124,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Cafeteria",Medium,85,220,5,135,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Main Block",Low,89,300,0,211,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Computer Lab",Low,25,90,0,65,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Study Area",Low,23,100,0,77,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Sports Complex",Low,25,160,0,135,Synthetic demonstration data
+2026-10-27,18:00,Tuesday,"Student Lounge",Low,24,80,0,56,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Central Library",Low,56,180,0,124,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Cafeteria",Low,66,220,3,154,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Main Block",Low,79,300,0,221,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Sports Complex",Low,17,160,0,143,Synthetic demonstration data
+2026-10-28,08:00,Wednesday,"Student Lounge",Low,15,80,0,65,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Central Library",Medium,103,180,0,77,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Cafeteria",Medium,128,220,11,92,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Main Block",Medium,129,300,0,171,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Auditorium",Low,88,400,0,312,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-10-28,10:00,Wednesday,"Student Lounge",Medium,36,80,0,44,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Central Library",Medium,109,180,0,71,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Cafeteria",High,196,220,21,24,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Main Block",Medium,178,300,0,122,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Computer Lab",Medium,59,90,0,31,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Study Area",Medium,49,100,0,51,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Auditorium",Low,131,400,0,269,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Sports Complex",Medium,70,160,0,90,Synthetic demonstration data
+2026-10-28,12:00,Wednesday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Central Library",High,125,180,0,55,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Cafeteria",High,179,220,19,41,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Main Block",Medium,166,300,0,134,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Study Area",Medium,42,100,0,58,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Auditorium",Low,100,400,0,300,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Sports Complex",Medium,59,160,0,101,Synthetic demonstration data
+2026-10-28,14:00,Wednesday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Central Library",Medium,109,180,0,71,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Cafeteria",Medium,118,220,10,102,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Main Block",Medium,132,300,0,168,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Auditorium",Low,55,400,0,345,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-10-28,16:00,Wednesday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Central Library",Low,63,180,0,117,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Cafeteria",Medium,87,220,6,133,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Main Block",Low,84,300,0,216,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Auditorium",Low,27,400,0,373,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Sports Complex",Low,29,160,0,131,Synthetic demonstration data
+2026-10-28,18:00,Wednesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Cafeteria",Medium,80,220,5,140,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Main Block",Low,83,300,0,217,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-10-29,08:00,Thursday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Cafeteria",Medium,127,220,11,93,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Main Block",Medium,140,300,0,160,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Study Area",Medium,40,100,0,60,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Auditorium",Low,89,400,0,311,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Sports Complex",Low,55,160,0,105,Synthetic demonstration data
+2026-10-29,10:00,Thursday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Central Library",Medium,116,180,0,64,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Cafeteria",High,189,220,18,31,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Main Block",Medium,174,300,0,126,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Computer Lab",Medium,61,90,0,29,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Study Area",Medium,56,100,0,44,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Auditorium",Medium,170,400,0,230,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Sports Complex",Medium,67,160,0,93,Synthetic demonstration data
+2026-10-29,12:00,Thursday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Central Library",High,122,180,0,58,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Cafeteria",High,179,220,18,41,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Main Block",Medium,163,300,0,137,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Auditorium",Medium,160,400,0,240,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Sports Complex",Medium,57,160,0,103,Synthetic demonstration data
+2026-10-29,14:00,Thursday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Cafeteria",Medium,126,220,11,94,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Main Block",Medium,125,300,0,175,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Study Area",Medium,35,100,0,65,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Auditorium",Low,116,400,0,284,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-10-29,16:00,Thursday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Central Library",Medium,67,180,0,113,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Cafeteria",Medium,86,220,6,134,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-10-29,18:00,Thursday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Central Library",Low,51,180,0,129,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Cafeteria",Low,72,220,5,148,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Main Block",Low,68,300,0,232,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Sports Complex",Low,17,160,0,143,Synthetic demonstration data
+2026-10-30,08:00,Friday,"Student Lounge",Low,14,80,0,66,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Central Library",Medium,116,180,0,64,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Cafeteria",Medium,116,220,10,104,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Main Block",Medium,143,300,0,157,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Computer Lab",Medium,50,90,0,40,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Study Area",Low,35,100,0,65,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Auditorium",Low,77,400,0,323,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Sports Complex",Low,49,160,0,111,Synthetic demonstration data
+2026-10-30,10:00,Friday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Central Library",Medium,111,180,0,69,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Cafeteria",High,195,220,20,25,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Main Block",Medium,182,300,0,118,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Computer Lab",Medium,59,90,0,31,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Study Area",Medium,48,100,0,52,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Auditorium",Medium,143,400,0,257,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Sports Complex",Medium,72,160,0,88,Synthetic demonstration data
+2026-10-30,12:00,Friday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Central Library",High,124,180,0,56,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Cafeteria",High,183,220,18,37,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Main Block",Medium,168,300,0,132,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Computer Lab",Medium,51,90,0,39,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Study Area",Medium,45,100,0,55,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Auditorium",Low,112,400,0,288,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Sports Complex",Medium,67,160,0,93,Synthetic demonstration data
+2026-10-30,14:00,Friday,"Student Lounge",Medium,38,80,0,42,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Central Library",Medium,104,180,0,76,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Cafeteria",Medium,109,220,9,111,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Main Block",Medium,135,300,0,165,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Study Area",Low,33,100,0,67,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Auditorium",Low,83,400,0,317,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-10-30,16:00,Friday,"Student Lounge",Low,28,80,0,52,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Central Library",Low,61,180,0,119,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Cafeteria",Medium,86,220,6,134,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Computer Lab",Low,23,90,0,67,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Auditorium",Low,17,400,0,383,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Sports Complex",Low,29,160,0,131,Synthetic demonstration data
+2026-10-30,18:00,Friday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Central Library",Low,22,180,0,158,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Cafeteria",Low,51,220,2,169,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Main Block",Low,34,300,0,266,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Computer Lab",Low,5,90,0,85,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-31,08:00,Saturday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Central Library",Medium,82,180,0,98,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Cafeteria",Medium,82,220,5,138,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Main Block",Low,96,300,0,204,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-10-31,10:00,Saturday,"Student Lounge",Low,15,80,0,65,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Central Library",Medium,91,180,0,89,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Cafeteria",High,170,220,17,50,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Main Block",Medium,137,300,0,163,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Auditorium",Low,60,400,0,340,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Sports Complex",Low,45,160,0,115,Synthetic demonstration data
+2026-10-31,12:00,Saturday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Central Library",Medium,102,180,0,78,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Cafeteria",High,152,220,15,68,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Main Block",Medium,108,300,0,192,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Computer Lab",Medium,40,90,0,50,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Study Area",Low,28,100,0,72,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Auditorium",Low,47,400,0,353,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Sports Complex",Low,36,160,0,124,Synthetic demonstration data
+2026-10-31,14:00,Saturday,"Student Lounge",Low,25,80,0,55,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Central Library",Medium,72,180,0,108,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Cafeteria",Medium,82,220,6,138,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Main Block",Low,83,300,0,217,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Study Area",Low,18,100,0,82,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-10-31,16:00,Saturday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Central Library",Low,39,180,0,141,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Cafeteria",Low,54,220,1,166,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Main Block",Low,46,300,0,254,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Computer Lab",Low,11,90,0,79,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-10-31,18:00,Saturday,"Student Lounge",Low,7,80,0,73,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Central Library",Low,27,180,0,153,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Cafeteria",Low,39,220,0,181,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Main Block",Low,30,300,0,270,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Computer Lab",Low,5,90,0,85,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-01,08:00,Sunday,"Student Lounge",Low,6,80,0,74,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Central Library",Medium,79,180,0,101,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Cafeteria",Medium,89,220,7,131,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Main Block",Low,89,300,0,211,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Computer Lab",Low,31,90,0,59,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Study Area",Low,22,100,0,78,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-01,10:00,Sunday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Central Library",Medium,89,180,0,91,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Cafeteria",High,158,220,15,62,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Main Block",Medium,143,300,0,157,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Computer Lab",Medium,45,90,0,45,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Auditorium",Low,63,400,0,337,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Sports Complex",Low,40,160,0,120,Synthetic demonstration data
+2026-11-01,12:00,Sunday,"Student Lounge",Low,28,80,0,52,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Central Library",Medium,96,180,0,84,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Cafeteria",Medium,148,220,14,72,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Main Block",Low,102,300,0,198,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Computer Lab",Medium,41,90,0,49,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Study Area",Low,30,100,0,70,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Auditorium",Low,36,400,0,364,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Sports Complex",Low,38,160,0,122,Synthetic demonstration data
+2026-11-01,14:00,Sunday,"Student Lounge",Low,25,80,0,55,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Central Library",Medium,81,180,0,99,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Cafeteria",Medium,79,220,5,141,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Study Area",Low,18,100,0,82,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-11-01,16:00,Sunday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Central Library",Low,30,180,0,150,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Cafeteria",Low,53,220,1,167,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Main Block",Low,43,300,0,257,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Computer Lab",Low,9,90,0,81,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Study Area",Low,7,100,0,93,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-01,18:00,Sunday,"Student Lounge",Low,5,80,0,75,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Cafeteria",Medium,78,220,4,142,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Main Block",Low,81,300,0,219,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Sports Complex",Low,14,160,0,146,Synthetic demonstration data
+2026-11-02,08:00,Monday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Cafeteria",Medium,124,220,11,96,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Main Block",Medium,138,300,0,162,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Computer Lab",Medium,47,90,0,43,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Auditorium",Low,79,400,0,321,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Sports Complex",Low,48,160,0,112,Synthetic demonstration data
+2026-11-02,10:00,Monday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Central Library",Medium,111,180,0,69,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Cafeteria",High,196,220,20,24,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Main Block",Medium,181,300,0,119,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Computer Lab",High,64,90,0,26,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Study Area",Medium,50,100,0,50,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Auditorium",Low,134,400,0,266,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Sports Complex",Medium,74,160,0,86,Synthetic demonstration data
+2026-11-02,12:00,Monday,"Student Lounge",Medium,44,80,0,36,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Central Library",High,124,180,0,56,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Cafeteria",High,172,220,17,48,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Main Block",Medium,157,300,0,143,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Study Area",Medium,47,100,0,53,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Auditorium",Low,115,400,0,285,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Sports Complex",Medium,60,160,0,100,Synthetic demonstration data
+2026-11-02,14:00,Monday,"Student Lounge",Medium,37,80,0,43,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Central Library",Medium,106,180,0,74,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Cafeteria",Medium,116,220,10,104,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Main Block",Medium,129,300,0,171,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Study Area",Low,32,100,0,68,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Auditorium",Low,66,400,0,334,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-11-02,16:00,Monday,"Student Lounge",Low,28,80,0,52,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Central Library",Medium,64,180,0,116,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Cafeteria",Medium,84,220,6,136,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Main Block",Low,87,300,0,213,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Sports Complex",Low,23,160,0,137,Synthetic demonstration data
+2026-11-02,18:00,Monday,"Student Lounge",Low,21,80,0,59,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Central Library",Low,59,180,0,121,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Cafeteria",Medium,79,220,4,141,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Main Block",Low,91,300,0,209,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Computer Lab",Low,17,90,0,73,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-03,08:00,Tuesday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Central Library",Medium,112,180,0,68,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Cafeteria",Medium,121,220,11,99,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Main Block",Medium,140,300,0,160,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Computer Lab",Medium,47,90,0,43,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Study Area",Low,33,100,0,67,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Auditorium",Low,78,400,0,322,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-11-03,10:00,Tuesday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Central Library",Medium,113,180,0,67,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Cafeteria",High,192,220,19,28,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Main Block",Medium,180,300,0,120,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Computer Lab",Medium,61,90,0,29,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Study Area",Medium,50,100,0,50,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Auditorium",Medium,181,400,0,219,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Sports Complex",Medium,74,160,0,86,Synthetic demonstration data
+2026-11-03,12:00,Tuesday,"Student Lounge",Medium,42,80,0,38,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Central Library",High,128,180,0,52,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Cafeteria",High,176,220,18,44,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Main Block",Medium,158,300,0,142,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Computer Lab",Medium,55,90,0,35,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Study Area",Medium,45,100,0,55,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Auditorium",Medium,159,400,0,241,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Sports Complex",Low,52,160,0,108,Synthetic demonstration data
+2026-11-03,14:00,Tuesday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Central Library",Medium,101,180,0,79,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Cafeteria",Medium,122,220,12,98,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Main Block",Medium,125,300,0,175,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Study Area",Low,35,100,0,65,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Auditorium",Low,103,400,0,297,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Sports Complex",Low,44,160,0,116,Synthetic demonstration data
+2026-11-03,16:00,Tuesday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Central Library",Medium,65,180,0,115,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Cafeteria",Medium,91,220,6,129,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Main Block",Low,92,300,0,208,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Computer Lab",Low,27,90,0,63,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Auditorium",Low,24,400,0,376,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Sports Complex",Low,22,160,0,138,Synthetic demonstration data
+2026-11-03,18:00,Tuesday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Cafeteria",Medium,84,220,6,136,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Main Block",Low,86,300,0,214,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-11-04,08:00,Wednesday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Cafeteria",Medium,129,220,12,91,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Main Block",Medium,149,300,0,151,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Auditorium",Low,70,400,0,330,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Sports Complex",Low,45,160,0,115,Synthetic demonstration data
+2026-11-04,10:00,Wednesday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Central Library",Medium,119,180,0,61,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Cafeteria",High,198,220,20,22,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Main Block",Medium,185,300,0,115,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Computer Lab",Medium,57,90,0,33,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Study Area",Medium,51,100,0,49,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Auditorium",Low,135,400,0,265,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Sports Complex",Medium,69,160,0,91,Synthetic demonstration data
+2026-11-04,12:00,Wednesday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Central Library",High,128,180,1,52,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Cafeteria",High,181,220,19,39,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Main Block",Medium,162,300,0,138,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Study Area",Medium,44,100,0,56,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Auditorium",Low,104,400,0,296,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Sports Complex",Medium,63,160,0,97,Synthetic demonstration data
+2026-11-04,14:00,Wednesday,"Student Lounge",Medium,37,80,0,43,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Cafeteria",Medium,112,220,10,108,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Main Block",Medium,125,300,0,175,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Computer Lab",Medium,35,90,0,55,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Auditorium",Low,71,400,0,329,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Sports Complex",Low,42,160,0,118,Synthetic demonstration data
+2026-11-04,16:00,Wednesday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Central Library",Medium,66,180,0,114,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Cafeteria",Medium,81,220,5,139,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Main Block",Low,92,300,0,208,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Sports Complex",Low,24,160,0,136,Synthetic demonstration data
+2026-11-04,18:00,Wednesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Central Library",Low,51,180,0,129,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Cafeteria",Low,73,220,6,147,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Main Block",Low,71,300,0,229,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Sports Complex",Low,15,160,0,145,Synthetic demonstration data
+2026-11-05,08:00,Thursday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Central Library",Medium,115,180,0,65,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Cafeteria",Medium,121,220,9,99,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Main Block",Medium,139,300,0,161,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Computer Lab",Medium,50,90,0,40,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Study Area",Low,34,100,0,66,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Auditorium",Low,80,400,0,320,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Sports Complex",Low,50,160,0,110,Synthetic demonstration data
+2026-11-05,10:00,Thursday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Cafeteria",High,195,220,20,25,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Main Block",Medium,180,300,0,120,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Computer Lab",Medium,59,90,0,31,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Study Area",Medium,53,100,0,47,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Auditorium",Medium,187,400,0,213,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Sports Complex",Medium,78,160,0,82,Synthetic demonstration data
+2026-11-05,12:00,Thursday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Central Library",High,126,180,0,54,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Cafeteria",High,183,220,18,37,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Main Block",Medium,173,300,0,127,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Computer Lab",Medium,52,90,0,38,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Auditorium",Medium,157,400,0,243,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Sports Complex",Medium,63,160,0,97,Synthetic demonstration data
+2026-11-05,14:00,Thursday,"Student Lounge",Medium,38,80,0,42,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Central Library",Medium,105,180,0,75,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Cafeteria",Medium,110,220,8,110,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Main Block",Medium,126,300,0,174,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Study Area",Low,33,100,0,67,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Auditorium",Low,106,400,0,294,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Sports Complex",Low,42,160,0,118,Synthetic demonstration data
+2026-11-05,16:00,Thursday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Central Library",Medium,63,180,0,117,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Cafeteria",Medium,88,220,7,132,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Main Block",Low,95,300,0,205,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Computer Lab",Low,25,90,0,65,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Study Area",Low,22,100,0,78,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Auditorium",Low,31,400,0,369,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-11-05,18:00,Thursday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Central Library",Low,55,180,0,125,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Cafeteria",Medium,81,220,4,139,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Main Block",Low,71,300,0,229,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-11-06,08:00,Friday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Cafeteria",Medium,126,220,12,94,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Main Block",Medium,130,300,0,170,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Computer Lab",Medium,45,90,0,45,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Auditorium",Low,90,400,0,310,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Sports Complex",Low,42,160,0,118,Synthetic demonstration data
+2026-11-06,10:00,Friday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Cafeteria",High,191,220,19,29,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Main Block",Medium,174,300,0,126,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Computer Lab",Medium,60,90,0,30,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Study Area",Medium,50,100,0,50,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Auditorium",Medium,140,400,0,260,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Sports Complex",Medium,66,160,0,94,Synthetic demonstration data
+2026-11-06,12:00,Friday,"Student Lounge",Medium,44,80,0,36,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Central Library",High,132,180,1,48,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Cafeteria",High,191,220,19,29,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Main Block",Medium,167,300,0,133,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Study Area",Medium,48,100,0,52,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Auditorium",Low,104,400,0,296,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Sports Complex",Medium,60,160,0,100,Synthetic demonstration data
+2026-11-06,14:00,Friday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Central Library",Medium,104,180,0,76,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Cafeteria",Medium,121,220,11,99,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Main Block",Medium,132,300,0,168,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Auditorium",Low,67,400,0,333,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Sports Complex",Low,42,160,0,118,Synthetic demonstration data
+2026-11-06,16:00,Friday,"Student Lounge",Low,27,80,0,53,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Central Library",Medium,66,180,0,114,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Cafeteria",Medium,88,220,6,132,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Main Block",Low,90,300,0,210,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Auditorium",Low,23,400,0,377,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-06,18:00,Friday,"Student Lounge",Low,22,80,0,58,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Central Library",Low,25,180,0,155,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Cafeteria",Low,46,220,1,174,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Main Block",Low,36,300,0,264,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Computer Lab",Low,5,90,0,85,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Study Area",Low,6,100,0,94,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-07,08:00,Saturday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Central Library",Medium,81,180,0,99,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Cafeteria",Medium,80,220,6,140,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Main Block",Low,83,300,0,217,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Computer Lab",Medium,34,90,0,56,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Auditorium",Low,25,400,0,375,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Sports Complex",Low,28,160,0,132,Synthetic demonstration data
+2026-11-07,10:00,Saturday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Central Library",Medium,93,180,0,87,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Cafeteria",High,151,220,15,69,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Main Block",Medium,126,300,0,174,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Auditorium",Low,67,400,0,333,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Sports Complex",Low,45,160,0,115,Synthetic demonstration data
+2026-11-07,12:00,Saturday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Central Library",Medium,94,180,0,86,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Cafeteria",Medium,141,220,13,79,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Main Block",Medium,114,300,0,186,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Computer Lab",Medium,42,90,0,48,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Study Area",Low,28,100,0,72,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Auditorium",Low,59,400,0,341,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Sports Complex",Low,38,160,0,122,Synthetic demonstration data
+2026-11-07,14:00,Saturday,"Student Lounge",Low,26,80,0,54,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Central Library",Medium,79,180,0,101,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Cafeteria",Medium,86,220,6,134,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Main Block",Low,76,300,0,224,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Study Area",Low,18,100,0,82,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Sports Complex",Low,17,160,0,143,Synthetic demonstration data
+2026-11-07,16:00,Saturday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Central Library",Low,39,180,0,141,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Cafeteria",Low,55,220,2,165,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Main Block",Low,45,300,0,255,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Computer Lab",Low,13,90,0,77,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Study Area",Low,7,100,0,93,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-07,18:00,Saturday,"Student Lounge",Low,5,80,0,75,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Central Library",Low,26,180,0,154,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Cafeteria",Low,41,220,0,179,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Main Block",Low,20,300,0,280,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Computer Lab",Low,8,90,0,82,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-08,08:00,Sunday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Central Library",Medium,90,180,0,90,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Cafeteria",Medium,80,220,4,140,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Main Block",Low,90,300,0,210,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-11-08,10:00,Sunday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Central Library",Medium,91,180,0,89,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Cafeteria",High,165,220,17,55,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Main Block",Medium,132,300,0,168,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Study Area",Medium,39,100,0,61,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Auditorium",Low,84,400,0,316,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-11-08,12:00,Sunday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Central Library",Medium,103,180,0,77,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Cafeteria",High,154,220,15,66,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Main Block",Medium,112,300,0,188,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Computer Lab",Medium,41,90,0,49,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Study Area",Low,26,100,0,74,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Auditorium",Low,53,400,0,347,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Sports Complex",Low,34,160,0,126,Synthetic demonstration data
+2026-11-08,14:00,Sunday,"Student Lounge",Low,23,80,0,57,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Central Library",Medium,69,180,0,111,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Cafeteria",Medium,80,220,6,140,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Main Block",Low,79,300,0,221,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Computer Lab",Low,24,90,0,66,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Study Area",Low,17,100,0,83,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-11-08,16:00,Sunday,"Student Lounge",Low,13,80,0,67,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Central Library",Low,32,180,0,148,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Cafeteria",Low,57,220,2,163,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Main Block",Low,41,300,0,259,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Computer Lab",Low,8,90,0,82,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Study Area",Low,5,100,0,95,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-08,18:00,Sunday,"Student Lounge",Low,5,80,0,75,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Central Library",Low,51,180,0,129,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Cafeteria",Medium,77,220,5,143,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Main Block",Low,84,300,0,216,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Computer Lab",Low,17,90,0,73,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Study Area",Low,17,100,0,83,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-11-09,08:00,Monday,"Student Lounge",Low,14,80,0,66,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Central Library",Medium,108,180,0,72,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Cafeteria",Medium,122,220,11,98,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Main Block",Medium,144,300,0,156,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Auditorium",Low,70,400,0,330,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Sports Complex",Low,45,160,0,115,Synthetic demonstration data
+2026-11-09,10:00,Monday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Central Library",Medium,115,180,0,65,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Cafeteria",High,196,220,18,24,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Main Block",Medium,182,300,0,118,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Computer Lab",Medium,61,90,0,29,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Study Area",Medium,51,100,0,49,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Auditorium",Medium,150,400,0,250,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Sports Complex",Medium,66,160,0,94,Synthetic demonstration data
+2026-11-09,12:00,Monday,"Student Lounge",Medium,42,80,0,38,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Central Library",Medium,121,180,0,59,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Cafeteria",High,176,220,18,44,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Main Block",Medium,148,300,0,152,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Computer Lab",Medium,52,90,0,38,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Study Area",Medium,42,100,0,58,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Auditorium",Low,104,400,0,296,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Sports Complex",Medium,60,160,0,100,Synthetic demonstration data
+2026-11-09,14:00,Monday,"Student Lounge",Medium,37,80,0,43,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Central Library",Medium,107,180,0,73,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Cafeteria",Medium,106,220,10,114,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Main Block",Medium,133,300,0,167,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Computer Lab",Medium,34,90,0,56,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Study Area",Low,33,100,0,67,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Auditorium",Low,78,400,0,322,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Sports Complex",Low,44,160,0,116,Synthetic demonstration data
+2026-11-09,16:00,Monday,"Student Lounge",Medium,30,80,0,50,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Central Library",Low,57,180,0,123,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Cafeteria",Medium,90,220,8,130,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Main Block",Low,92,300,0,208,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Computer Lab",Low,28,90,0,62,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Study Area",Low,22,100,0,78,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-09,18:00,Monday,"Student Lounge",Low,20,80,0,60,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Central Library",Low,48,180,0,132,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Cafeteria",Medium,79,220,5,141,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Main Block",Low,76,300,0,224,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Sports Complex",Low,16,160,0,144,Synthetic demonstration data
+2026-11-10,08:00,Tuesday,"Student Lounge",Low,15,80,0,65,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Central Library",Medium,109,180,0,71,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Cafeteria",Medium,115,220,8,105,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Main Block",Medium,143,300,0,157,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Computer Lab",Medium,49,90,0,41,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Auditorium",Low,89,400,0,311,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-11-10,10:00,Tuesday,"Student Lounge",Medium,33,80,0,47,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Cafeteria",High,192,220,19,28,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Main Block",Medium,169,300,0,131,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Computer Lab",Medium,59,90,0,31,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Study Area",Medium,51,100,0,49,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Auditorium",Medium,195,400,0,205,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Sports Complex",Medium,71,160,0,89,Synthetic demonstration data
+2026-11-10,12:00,Tuesday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Central Library",High,125,180,0,55,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Cafeteria",High,179,220,17,41,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Main Block",Medium,164,300,0,136,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Study Area",Medium,44,100,0,56,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Auditorium",Medium,157,400,0,243,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Sports Complex",Medium,59,160,0,101,Synthetic demonstration data
+2026-11-10,14:00,Tuesday,"Student Lounge",Medium,38,80,0,42,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Cafeteria",Medium,111,220,9,109,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Main Block",Medium,121,300,0,179,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Computer Lab",Medium,35,90,0,55,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Study Area",Low,32,100,0,68,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Auditorium",Low,112,400,0,288,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-11-10,16:00,Tuesday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Central Library",Low,61,180,0,119,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Cafeteria",Medium,82,220,5,138,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Main Block",Low,95,300,0,205,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Computer Lab",Low,23,90,0,67,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Sports Complex",Low,26,160,0,134,Synthetic demonstration data
+2026-11-10,18:00,Tuesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Central Library",Low,55,180,0,125,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Cafeteria",Low,75,220,4,145,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Main Block",Low,80,300,0,220,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Computer Lab",Low,18,90,0,72,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Study Area",Low,15,100,0,85,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Sports Complex",Low,14,160,0,146,Synthetic demonstration data
+2026-11-11,08:00,Wednesday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Central Library",Medium,109,180,0,71,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Cafeteria",Medium,121,220,11,99,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Main Block",Medium,124,300,0,176,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Computer Lab",Medium,45,90,0,45,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Auditorium",Low,75,400,0,325,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-11-11,10:00,Wednesday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Central Library",Medium,120,180,0,60,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Cafeteria",High,194,220,19,26,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Main Block",Medium,180,300,0,120,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Computer Lab",Medium,60,90,0,30,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Study Area",Medium,55,100,0,45,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Auditorium",Low,136,400,0,264,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Sports Complex",Medium,67,160,0,93,Synthetic demonstration data
+2026-11-11,12:00,Wednesday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Central Library",High,126,180,0,54,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Cafeteria",High,183,220,19,37,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Main Block",Medium,168,300,0,132,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Computer Lab",Medium,52,90,0,38,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Auditorium",Low,118,400,0,282,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Sports Complex",Medium,65,160,0,95,Synthetic demonstration data
+2026-11-11,14:00,Wednesday,"Student Lounge",Medium,39,80,0,41,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Central Library",Medium,104,180,0,76,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Cafeteria",Medium,115,220,10,105,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Main Block",Medium,130,300,0,170,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Auditorium",Low,74,400,0,326,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Sports Complex",Low,40,160,0,120,Synthetic demonstration data
+2026-11-11,16:00,Wednesday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Central Library",Low,58,180,0,122,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Cafeteria",Medium,89,220,7,131,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Main Block",Low,90,300,0,210,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Auditorium",Low,21,400,0,379,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-11-11,18:00,Wednesday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Central Library",Low,51,180,0,129,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Cafeteria",Medium,81,220,5,139,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Main Block",Low,80,300,0,220,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Computer Lab",Low,22,90,0,68,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Study Area",Low,18,100,0,82,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Sports Complex",Low,11,160,0,149,Synthetic demonstration data
+2026-11-12,08:00,Thursday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Central Library",Medium,117,180,0,63,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Cafeteria",Medium,117,220,10,103,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Main Block",Medium,134,300,0,166,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Study Area",Medium,36,100,0,64,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Auditorium",Low,78,400,0,322,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Sports Complex",Low,46,160,0,114,Synthetic demonstration data
+2026-11-12,10:00,Thursday,"Student Lounge",Medium,32,80,0,48,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Central Library",Medium,112,180,0,68,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Cafeteria",High,200,220,21,20,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Main Block",Medium,187,300,0,113,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Computer Lab",Medium,60,90,0,30,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Study Area",Medium,49,100,0,51,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Auditorium",Medium,195,400,0,205,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Sports Complex",Medium,72,160,0,88,Synthetic demonstration data
+2026-11-12,12:00,Thursday,"Student Lounge",Medium,44,80,0,36,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Central Library",Medium,122,180,0,58,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Cafeteria",High,174,220,17,46,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Main Block",Medium,161,300,0,139,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Auditorium",Medium,168,400,0,232,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Sports Complex",Medium,57,160,0,103,Synthetic demonstration data
+2026-11-12,14:00,Thursday,"Student Lounge",Medium,36,80,0,44,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Central Library",Medium,99,180,0,81,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Cafeteria",Medium,115,220,9,105,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Main Block",Medium,134,300,0,166,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Computer Lab",Medium,35,90,0,55,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Study Area",Low,35,100,0,65,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Auditorium",Low,106,400,0,294,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-11-12,16:00,Thursday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Central Library",Medium,64,180,0,116,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Cafeteria",Medium,92,220,6,128,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Main Block",Low,89,300,0,211,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Sports Complex",Low,23,160,0,137,Synthetic demonstration data
+2026-11-12,18:00,Thursday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Central Library",Low,49,180,0,131,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Cafeteria",Medium,79,220,6,141,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Main Block",Low,81,300,0,219,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Computer Lab",Low,16,90,0,74,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Sports Complex",Low,15,160,0,145,Synthetic demonstration data
+2026-11-13,08:00,Friday,"Student Lounge",Low,15,80,0,65,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Cafeteria",Medium,119,220,9,101,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Main Block",Medium,141,300,0,159,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Computer Lab",Medium,47,90,0,43,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Study Area",Medium,39,100,0,61,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Auditorium",Low,58,400,0,342,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Sports Complex",Low,53,160,0,107,Synthetic demonstration data
+2026-11-13,10:00,Friday,"Student Lounge",Medium,34,80,0,46,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Central Library",Medium,114,180,0,66,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Cafeteria",High,186,220,19,34,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Main Block",Medium,180,300,0,120,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Computer Lab",High,62,90,0,28,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Study Area",Medium,55,100,0,45,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Auditorium",Low,132,400,0,268,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Sports Complex",Medium,70,160,0,90,Synthetic demonstration data
+2026-11-13,12:00,Friday,"Student Lounge",Medium,45,80,0,35,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Central Library",High,128,180,0,52,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Cafeteria",High,184,220,18,36,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Main Block",Medium,166,300,0,134,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Computer Lab",Medium,54,90,0,36,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Auditorium",Low,106,400,0,294,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Sports Complex",Medium,61,160,0,99,Synthetic demonstration data
+2026-11-13,14:00,Friday,"Student Lounge",Medium,38,80,0,42,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Central Library",Medium,107,180,0,73,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Cafeteria",Medium,113,220,9,107,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Main Block",Medium,122,300,0,178,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Computer Lab",Medium,33,90,0,57,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Auditorium",Low,72,400,0,328,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Sports Complex",Low,43,160,0,117,Synthetic demonstration data
+2026-11-13,16:00,Friday,"Student Lounge",Medium,29,80,0,51,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Central Library",Low,61,180,0,119,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Cafeteria",Medium,79,220,5,141,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Main Block",Low,86,300,0,214,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Computer Lab",Low,25,90,0,65,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Study Area",Low,19,100,0,81,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-11-13,18:00,Friday,"Student Lounge",Low,21,80,0,59,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Central Library",Low,20,180,0,160,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Cafeteria",Low,41,220,1,179,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Main Block",Low,29,300,0,271,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Computer Lab",Low,7,90,0,83,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-14,08:00,Saturday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Central Library",Medium,77,180,0,103,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Cafeteria",Medium,85,220,7,135,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Main Block",Low,85,300,0,215,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Computer Lab",Medium,34,90,0,56,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Study Area",Low,24,100,0,76,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Sports Complex",Low,20,160,0,140,Synthetic demonstration data
+2026-11-14,10:00,Saturday,"Student Lounge",Low,21,80,0,59,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Central Library",Medium,81,180,0,99,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Cafeteria",High,158,220,15,62,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Main Block",Medium,133,300,0,167,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Computer Lab",Medium,42,90,0,48,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Study Area",Low,34,100,0,66,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Auditorium",Low,75,400,0,325,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Sports Complex",Low,44,160,0,116,Synthetic demonstration data
+2026-11-14,12:00,Saturday,"Student Lounge",Medium,28,80,0,52,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Central Library",Medium,98,180,0,82,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Cafeteria",Medium,141,220,13,79,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Main Block",Medium,116,300,0,184,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Computer Lab",Medium,37,90,0,53,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Study Area",Low,31,100,0,69,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Auditorium",Low,46,400,0,354,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Sports Complex",Low,34,160,0,126,Synthetic demonstration data
+2026-11-14,14:00,Saturday,"Student Lounge",Low,26,80,0,54,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Central Library",Medium,77,180,0,103,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Cafeteria",Medium,85,220,6,135,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Main Block",Low,82,300,0,218,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Computer Lab",Low,21,90,0,69,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-14,16:00,Saturday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Central Library",Low,36,180,0,144,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Cafeteria",Low,58,220,2,162,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Main Block",Low,34,300,0,266,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Computer Lab",Low,12,90,0,78,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Study Area",Low,6,100,0,94,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-14,18:00,Saturday,"Student Lounge",Low,6,80,0,74,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Central Library",Low,28,180,0,152,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Cafeteria",Low,39,220,0,181,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Main Block",Low,20,300,0,280,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Computer Lab",Low,6,90,0,84,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-15,08:00,Sunday,"Student Lounge",Low,3,80,0,77,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Central Library",Medium,77,180,0,103,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Cafeteria",Medium,94,220,8,126,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Computer Lab",Medium,34,90,0,56,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Sports Complex",Low,22,160,0,138,Synthetic demonstration data
+2026-11-15,10:00,Sunday,"Student Lounge",Low,18,80,0,62,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Central Library",Medium,86,180,0,94,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Cafeteria",High,158,220,16,62,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Main Block",Medium,130,300,0,170,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Auditorium",Low,75,400,0,325,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Sports Complex",Low,47,160,0,113,Synthetic demonstration data
+2026-11-15,12:00,Sunday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Central Library",Medium,92,180,0,88,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Cafeteria",Medium,149,220,14,71,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Main Block",Medium,113,300,0,187,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Computer Lab",Medium,42,90,0,48,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Study Area",Low,28,100,0,72,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Auditorium",Low,42,400,0,358,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Sports Complex",Low,41,160,0,119,Synthetic demonstration data
+2026-11-15,14:00,Sunday,"Student Lounge",Low,24,80,0,56,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Central Library",Medium,80,180,0,100,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Cafeteria",Medium,86,220,6,134,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Main Block",Low,85,300,0,215,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Computer Lab",Low,20,90,0,70,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Sports Complex",Low,19,160,0,141,Synthetic demonstration data
+2026-11-15,16:00,Sunday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Central Library",Low,35,180,0,145,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Cafeteria",Low,54,220,2,166,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Main Block",Low,31,300,0,269,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Computer Lab",Low,9,90,0,81,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Study Area",Low,4,100,0,96,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Sports Complex",Low,6,160,0,154,Synthetic demonstration data
+2026-11-15,18:00,Sunday,"Student Lounge",Low,8,80,0,72,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Central Library",Low,53,180,0,127,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Cafeteria",Medium,83,220,5,137,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Main Block",Low,82,300,0,218,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Computer Lab",Low,27,90,0,63,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Study Area",Low,16,100,0,84,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Sports Complex",Low,21,160,0,139,Synthetic demonstration data
+2026-11-16,08:00,Monday,"Student Lounge",Low,17,80,0,63,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Central Library",Medium,111,180,0,69,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Cafeteria",Medium,113,220,10,107,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Main Block",Medium,151,300,0,149,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Computer Lab",Medium,48,90,0,42,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Study Area",Medium,38,100,0,62,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Auditorium",Low,86,400,0,314,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Sports Complex",Low,55,160,0,105,Synthetic demonstration data
+2026-11-16,10:00,Monday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Central Library",Medium,119,180,0,61,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Cafeteria",High,201,220,20,19,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Main Block",Medium,176,300,0,124,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Computer Lab",High,65,90,0,25,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Study Area",Medium,52,100,0,48,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Auditorium",Medium,141,400,0,259,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Sports Complex",Medium,72,160,0,88,Synthetic demonstration data
+2026-11-16,12:00,Monday,"Student Lounge",Medium,41,80,0,39,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Central Library",High,126,180,0,54,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Cafeteria",High,181,220,19,39,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Main Block",Medium,162,300,0,138,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Computer Lab",Medium,60,90,0,30,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Study Area",Medium,46,100,0,54,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Auditorium",Low,102,400,0,298,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Sports Complex",Medium,59,160,0,101,Synthetic demonstration data
+2026-11-16,14:00,Monday,"Student Lounge",Medium,38,80,0,42,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Central Library",Medium,108,180,0,72,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Cafeteria",Medium,117,220,10,103,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Main Block",Medium,116,300,0,184,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Computer Lab",Medium,34,90,0,56,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Auditorium",Low,68,400,0,332,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Sports Complex",Low,49,160,0,111,Synthetic demonstration data
+2026-11-16,16:00,Monday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Central Library",Low,59,180,0,121,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Cafeteria",Medium,86,220,6,134,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Main Block",Low,103,300,0,197,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Computer Lab",Low,25,90,0,65,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Study Area",Low,25,100,0,75,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Sports Complex",Low,26,160,0,134,Synthetic demonstration data
+2026-11-16,18:00,Monday,"Student Lounge",Low,19,80,0,61,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Central Library",Low,44,180,0,136,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Cafeteria",Medium,85,220,6,135,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Main Block",Low,77,300,0,223,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Computer Lab",Low,19,90,0,71,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Study Area",Low,20,100,0,80,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Sports Complex",Low,18,160,0,142,Synthetic demonstration data
+2026-11-17,08:00,Tuesday,"Student Lounge",Low,16,80,0,64,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Central Library",Medium,116,180,0,64,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Cafeteria",Medium,121,220,11,99,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Main Block",Medium,135,300,0,165,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Computer Lab",Medium,46,90,0,44,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Study Area",Medium,37,100,0,63,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Auditorium",Low,96,400,0,304,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Sports Complex",Low,51,160,0,109,Synthetic demonstration data
+2026-11-17,10:00,Tuesday,"Student Lounge",Medium,31,80,0,49,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Central Library",Medium,118,180,0,62,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Cafeteria",High,191,220,19,29,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Main Block",Medium,185,300,0,115,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Computer Lab",High,64,90,0,26,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Study Area",Medium,52,100,0,48,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Auditorium",Medium,187,400,0,213,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Sports Complex",Medium,69,160,0,91,Synthetic demonstration data
+2026-11-17,12:00,Tuesday,"Student Lounge",Medium,43,80,0,37,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Central Library",High,124,180,0,56,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Cafeteria",High,178,220,17,42,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Main Block",Medium,155,300,0,145,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Computer Lab",Medium,57,90,0,33,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Study Area",Medium,47,100,0,53,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Auditorium",Medium,165,400,0,235,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Sports Complex",Medium,61,160,0,99,Synthetic demonstration data
+2026-11-17,14:00,Tuesday,"Student Lounge",Medium,37,80,0,43,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Central Library",Medium,110,180,0,70,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Cafeteria",Medium,116,220,11,104,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Main Block",Medium,133,300,0,167,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Computer Lab",Medium,36,90,0,54,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Study Area",Low,35,100,0,65,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Auditorium",Low,117,400,0,283,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Sports Complex",Low,41,160,0,119,Synthetic demonstration data
+2026-11-17,16:00,Tuesday,"Student Lounge",Medium,28,80,0,52,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Central Library",Medium,64,180,0,116,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Cafeteria",Medium,83,220,5,137,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Main Block",Low,88,300,0,212,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Computer Lab",Low,26,90,0,64,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Study Area",Low,21,100,0,79,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Auditorium",Low,16,400,0,384,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Sports Complex",Low,23,160,0,137,Synthetic demonstration data
+2026-11-17,18:00,Tuesday,"Student Lounge",Low,21,80,0,59,Synthetic demonstration data
