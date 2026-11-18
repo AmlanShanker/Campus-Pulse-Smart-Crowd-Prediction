@@ -73,7 +73,8 @@ COLORS = {"Low": "#43d6a0", "Medium": "#f5bd62", "High": "#fa718c"}
 
 def chart_layout(fig, height=330):
     fig.update_layout(
-        template="plotly_dark", height=height, margin=dict(l=8, r=8, t=42, b=8),
+        template=("plotly_white" if light_theme else "plotly_dark"), height=height, margin=dict(l=8, r=8, t=42, b=8),
+        transition=dict(duration=650, easing="cubic-in-out"),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
         font=dict(family="Manrope", color="#b9c8df", size=11),
         title_font=dict(color="#edf4ff", size=14),
@@ -107,6 +108,7 @@ with st.sidebar:
     st.markdown('<div class="brand">CHRIST UNIVERSITY · MCA 411-2</div>', unsafe_allow_html=True)
     st.markdown("## 🟣 Campus Pulse")
     st.caption("Campus intelligence dashboard")
+    light_theme = st.toggle("Light appearance", value=False, help="Switch between the midnight and daylight dashboard themes.")
     st.markdown("---")
     min_date, max_date = df["Date"].min().date(), df["Date"].max().date()
     with st.expander("⚙️ Dashboard filters", expanded=True):
@@ -117,6 +119,32 @@ with st.sidebar:
     st.markdown('<div class="small-muted">DATASET STATUS</div><div style="margin-top:8px"><span class="dot"></span><b>Bundled dataset ready</b></div>', unsafe_allow_html=True)
     st.caption(f"{len(df):,} observations · {df['Location'].nunique()} illustrative locations")
     st.caption("Synthetic demonstration data — not live university telemetry.")
+
+if light_theme:
+    st.markdown("""
+    <style>
+    .stApp{background:radial-gradient(ellipse at 10% 0%,rgba(84,130,190,.10),transparent 36%),#f3f6fb!important;color:#243247!important}
+    [data-testid="stHeader"]{background:rgba(243,246,251,.88)!important}
+    [data-testid="stSidebar"]{background:linear-gradient(180deg,#ffffff,#edf2f8)!important;border-right:1px solid #dce4ef!important}
+    [data-testid="stSidebar"] *{color:#33445b!important}
+    h1,h2,h3{color:#1d2b40!important}
+    p,label,.stMarkdown{color:#526176}
+    .hero{background:linear-gradient(115deg,#ffffff,#edf3fa 62%,#f2edff)!important;border-color:#dce5f0!important;box-shadow:0 12px 36px rgba(35,55,85,.07)}
+    .hero h1{color:#1d2b40!important}.hero p{color:#526176!important}.hero-meta{color:#718198!important}
+    .brand{color:#397f9b!important}
+    .kpi{background:linear-gradient(145deg,#ffffff,#f7f9fc)!important;border-color:#e0e7f0!important;box-shadow:0 5px 18px rgba(35,55,85,.045)}
+    .kpi-label{color:#68788e!important}.kpi-value{color:#1e2d43!important}.kpi-foot{color:#8290a3!important}
+    .section-title{color:#243247!important}.section-note,.small-muted{color:#77869a!important}
+    .insight{background:linear-gradient(110deg,#e8f5f8,#f0edff)!important;border-color:#d8e4f0!important;color:#33445b!important}
+    .stTabs [data-baseweb="tab"]{background:#e8edf4!important;color:#526176!important}
+    .stTabs [aria-selected="true"]{background:#ffffff!important;color:#243247!important}
+    div[data-testid="stMetric"]{background:#fff!important;border-color:#e0e7f0!important}
+    div[data-testid="stMetricLabel"] p{color:#68788e!important}
+    div[data-testid="stMetricValue"]{color:#1e2d43!important}
+    [data-testid="stExpander"]{border-color:#dce4ef!important}
+    hr{border-color:#dce4ef!important}
+    </style>
+    """, unsafe_allow_html=True)
 
 if isinstance(date_range, tuple) and len(date_range) == 2:
     start_date, end_date = date_range
