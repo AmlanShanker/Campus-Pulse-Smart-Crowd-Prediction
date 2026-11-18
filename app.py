@@ -80,16 +80,18 @@ COLORS = {"Low": "#43d6a0", "Medium": "#f5bd62", "High": "#fa718c"}
 
 def chart_layout(fig, height=330):
     fig.update_layout(
-        template=("plotly_white" if light_theme else "plotly_dark"), height=height, margin=dict(l=8, r=8, t=42, b=8),
+        template="plotly_dark", height=height, margin=dict(l=14, r=14, t=48, b=14),
         transition=dict(duration=650, easing="cubic-in-out"),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Manrope", color=("#526176" if light_theme else "#b9c8df"), size=11),
-        title_font=dict(color=("#243247" if light_theme else "#edf4ff"), size=14),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        hoverlabel=dict(bgcolor=("#ffffff" if light_theme else "#142238"), bordercolor=("#b8c6d8" if light_theme else "#526783"), font_color=("#243247" if light_theme else "#fff")),
+        font=dict(family="Manrope", color="#c5d2e5", size=12),
+        title_font=dict(color="#f1f5ff", size=15),
+        legend=dict(orientation="h", yanchor="bottom", y=1.03, xanchor="right", x=1, font=dict(size=10)),
+        hoverlabel=dict(bgcolor="#1a2a42", bordercolor="#526783", font_color="#f8fbff", font=dict(size=12)),
+        hovermode="closest",
+        uirevision="campus-pulse",
     )
-    fig.update_xaxes(showgrid=False, linecolor="rgba(148,163,184,.12)")
-    fig.update_yaxes(gridcolor="rgba(148,163,184,.10)", zeroline=False)
+    fig.update_xaxes(showgrid=False, linecolor="rgba(148,163,184,.22)", tickfont=dict(color="#aebed4"))
+    fig.update_yaxes(gridcolor="rgba(148,163,184,.13)", zeroline=False, tickfont=dict(color="#aebed4"))
     return fig
 
 def hero(kicker, title, subtitle, start_date, end_date):
@@ -115,7 +117,6 @@ with st.sidebar:
     st.markdown('<div class="brand">CHRIST UNIVERSITY · MCA 411-2</div>', unsafe_allow_html=True)
     st.markdown("## 🟣 Campus Pulse")
     st.caption("Campus intelligence dashboard")
-    light_theme = st.toggle("Light appearance", value=False, help="Switch between the midnight and daylight dashboard themes.")
     st.markdown("---")
     min_date, max_date = df["Date"].min().date(), df["Date"].max().date()
     with st.expander("⚙️ Dashboard filters", expanded=True):
@@ -127,31 +128,6 @@ with st.sidebar:
     st.caption(f"{len(df):,} observations · {df['Location'].nunique()} illustrative locations")
     st.caption("Synthetic demonstration data — not live university telemetry.")
 
-if light_theme:
-    st.markdown("""
-    <style>
-    .stApp{background:radial-gradient(ellipse at 10% 0%,rgba(84,130,190,.10),transparent 36%),#e8edf4!important;color:#243247!important}
-    [data-testid="stHeader"]{background:rgba(232,237,244,.94)!important}
-    [data-testid="stSidebar"]{background:linear-gradient(180deg,#e9eef5,#dfe6ef)!important;border-right:1px solid #dce4ef!important}
-    [data-testid="stSidebar"] *{color:#26364c!important}
-    h1,h2,h3{color:#17263b!important}
-    p,label,.stMarkdown{color:#526176}
-    .hero{background:linear-gradient(115deg,#f6f8fb,#e7edf5 62%,#ece8f7)!important;border-color:#dce5f0!important;box-shadow:0 12px 36px rgba(35,55,85,.07)}
-    .hero h1{color:#17263b!important}.hero p{color:#3e4d62!important}.hero-meta{color:#718198!important}
-    .brand{color:#397f9b!important}
-    .kpi{background:linear-gradient(145deg,#f7f9fc,#edf1f6)!important;border-color:#e0e7f0!important;box-shadow:0 5px 18px rgba(35,55,85,.045)}
-    .kpi-label{color:#46566c!important}.kpi-value{color:#17263b!important}.kpi-foot{color:#8290a3!important}
-    .section-title{color:#243247!important}.section-note,.small-muted{color:#5b6b80!important}
-    .insight{background:linear-gradient(110deg,#e8f5f8,#f0edff)!important;border-color:#d8e4f0!important;color:#26364c!important}
-    .stTabs [data-baseweb="tab"]{background:#e8edf4!important;color:#3e4d62!important}
-    .stTabs [aria-selected="true"]{background:#f7f9fc!important;color:#17263b!important}
-    div[data-testid="stMetric"]{background:#f7f9fc!important;border-color:#cfd8e4!important}
-    div[data-testid="stMetricLabel"] p{color:#46566c!important}
-    div[data-testid="stMetricValue"]{color:#17263b!important}
-    [data-testid="stExpander"]{border-color:#cbd5e1!important}
-    hr{border-color:#cbd5e1!important}
-    </style>
-    """, unsafe_allow_html=True)
 
 if isinstance(date_range, tuple) and len(date_range) == 2:
     start_date, end_date = date_range
@@ -191,7 +167,7 @@ with pages[0]:
     section("Activity over time", "Daily average occupancy. Use the legend to focus on individual locations.")
     daily = filtered.groupby(["Date", "Location"], as_index=False)["Occupancy_Rate"].mean()
     fig = px.line(daily, x="Date", y="Occupancy_Rate", color="Location", markers=True)
-    fig.update_traces(line=dict(width=2.2), marker=dict(size=4))
+    fig.update_traces(line=dict(width=2.2), marker=dict(size=4), hovertemplate="%{x|%b %d, %Y}<br>%{fullData.name}: %{y:.2f}%<extra></extra>")
     chart_layout(fig, 350)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
     with st.expander("Explore the supporting breakdowns"):
@@ -201,12 +177,13 @@ with pages[0]:
             fig2 = px.bar(loc, x="Occupancy_Rate", y="Location", orientation="h", color="Occupancy_Rate",
                           color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"])
             fig2.update_layout(coloraxis_showscale=False, title="Average capacity utilization")
+            fig2.update_traces(hovertemplate="%{y}<br>Average occupancy: %{x:.2f}%<extra></extra>")
             chart_layout(fig2, 300)
             st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
         with right:
             mix = filtered["Crowd_Level"].value_counts().reindex(["Low", "Medium", "High"], fill_value=0).rename_axis("Crowd level").reset_index(name="Readings")
             fig3 = px.pie(mix, names="Crowd level", values="Readings", hole=.68, color="Crowd level", color_discrete_map=COLORS)
-            fig3.update_traces(textinfo="percent+label")
+            fig3.update_traces(textinfo="percent+label", texttemplate="%{label}<br>%{percent:.1%}", hovertemplate="%{label}<br>Readings: %{value:,}<br>Share: %{percent:.1%}<extra></extra>")
             fig3.update_layout(title="Crowd condition mix")
             chart_layout(fig3, 300)
             st.plotly_chart(fig3, use_container_width=True, config={"displayModeBar": False})
@@ -226,7 +203,7 @@ with pages[1]:
     heat = heat.reindex(columns=sorted(heat.columns))
     fig = go.Figure(go.Heatmap(z=heat.values, x=heat.columns, y=heat.index,
         colorscale=[[0, "#163d4b"], [.5, "#4b78a8"], [1, "#c17de2"]],
-        colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>%{z:.2f}%<extra></extra>"))
+        colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>Occupancy: %{z:.2f}%<extra></extra>"))
     chart_layout(fig, 370)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
     with st.expander("View crowd-level and occupancy distributions"):
@@ -235,11 +212,13 @@ with pages[1]:
             counts = filtered.groupby(["Location", "Crowd_Level"]).size().reset_index(name="Readings")
             fig2 = px.bar(counts, x="Location", y="Readings", color="Crowd_Level", barmode="stack", color_discrete_map=COLORS)
             fig2.update_layout(title="Crowd-level readings by location", xaxis_tickangle=-20)
+            fig2.update_traces(hovertemplate="%{x}<br>%{fullData.name}: %{y:,} readings<extra></extra>")
             chart_layout(fig2, 310)
             st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
         with right:
             fig3 = px.box(filtered, x="Location", y="Occupancy_Rate", color="Location", points="outliers")
             fig3.update_layout(title="Occupancy spread", showlegend=False)
+            fig3.update_traces(hovertemplate="%{x}<br>Occupancy: %{y:.2f}%<extra></extra>")
             chart_layout(fig3, 310)
             st.plotly_chart(fig3, use_container_width=True, config={"displayModeBar": False})
 
@@ -280,8 +259,9 @@ with pages[2]:
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=by_time["Time_Slot"], y=by_time["Occupancy"], mode="lines+markers",
                 line=dict(color="#54d8f5", width=3), marker=dict(size=9, color="#9a8cff"),
-                fill="tozeroy", fillcolor="rgba(84,216,245,.10)", name="Average occupancy"))
-            fig.update_layout(yaxis_title="Occupancy (%)", xaxis_title="Time slot", yaxis_range=[0, 100])
+                fill="tozeroy", fillcolor="rgba(84,216,245,.10)", name="Average occupancy",
+                hovertemplate="%{x}<br>Average occupancy: %{y:.2f}%<extra></extra>"))
+            fig.update_layout(yaxis_title="Occupancy (%)", xaxis_title="Time slot", yaxis_range=[0, 100], yaxis_tickformat=".2f")
             chart_layout(fig, 330)
             st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
             section("Weekly rhythm", "This heatmap compares the average library occupancy across weekdays and time slots.")
@@ -290,7 +270,7 @@ with pages[2]:
             weekly = weekly.reindex(index=[d for d in weekday_order if d in weekly.index], columns=sorted(weekly.columns))
             fig_week = go.Figure(go.Heatmap(z=weekly.values, x=weekly.columns, y=weekly.index,
                 colorscale=[[0, "#163d4b"], [.5, "#4b78a8"], [1, "#c17de2"]],
-                colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>%{z:.1f}%<extra></extra>"))
+                colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>Occupancy: %{z:.2f}%<extra></extra>"))
             chart_layout(fig_week, 300)
             st.plotly_chart(fig_week, use_container_width=True, config={"displayModeBar": False})
 
@@ -303,13 +283,13 @@ with pages[2]:
             left, right = st.columns(2)
             with left:
                 fig_seats = px.area(daily_seats, x="Date", y="Free_Seats")
-                fig_seats.update_traces(line_color="#54d8f5", fillcolor="rgba(84,216,245,.14)")
+                fig_seats.update_traces(line_color="#54d8f5", fillcolor="rgba(84,216,245,.14)", hovertemplate="Date=%{x|%b %d, %Y}<br>Estimated free seats: %{y:.1f}<extra></extra>")
                 fig_seats.update_layout(title="Average available seats per day", yaxis_title="Available seats")
                 chart_layout(fig_seats, 320)
                 st.plotly_chart(fig_seats, use_container_width=True, config={"displayModeBar": False})
             with right:
                 fig_occ = px.line(daily_seats, x="Date", y="Occupancy", markers=True)
-                fig_occ.update_traces(line_color="#9a8cff", line_width=3)
+                fig_occ.update_traces(line_color="#9a8cff", line_width=3, hovertemplate="Date=%{x|%b %d, %Y}<br>Occupancy: %{y:.2f}%<extra></extra>")
                 fig_occ.update_layout(title="Daily capacity utilization", yaxis_title="Occupancy (%)", yaxis_range=[0, 100])
                 chart_layout(fig_occ, 320)
                 st.plotly_chart(fig_occ, use_container_width=True, config={"displayModeBar": False})
@@ -347,9 +327,9 @@ with pages[3]:
         fig.add_trace(go.Bar(x=wait["Time_Slot"], y=wait["Wait"], name="Wait (minutes)", marker_color="#9a8cff"))
         fig.add_trace(go.Scatter(x=wait["Time_Slot"], y=wait["Occupancy"], name="Occupancy (%)", mode="lines+markers",
             yaxis="y2", line=dict(color="#54d8f5", width=3)))
-        fig.update_layout(yaxis=dict(title="Wait (min)"), yaxis2=dict(title="Occupancy (%)", overlaying="y", side="right", showgrid=False))
-        fig.update_traces(hovertemplate="%{x}<br>Wait: %{y:.1f} min<extra></extra>", selector=dict(type="bar"))
-        fig.update_traces(hovertemplate="%{x}<br>Occupancy: %{y:.2f}%<extra></extra>", selector=dict(type="scatter"))
+        fig.update_layout(yaxis=dict(title="Wait (min)", tickformat=".1f"), yaxis2=dict(title="Occupancy (%)", overlaying="y", side="right", showgrid=False, tickformat=".2f"))
+        fig.update_traces(hovertemplate="%{x}<br>Average wait: %{y:.1f} min<extra></extra>", selector=dict(type="bar"))
+        fig.update_traces(hovertemplate="%{x}<br>Average occupancy: %{y:.2f}%<extra></extra>", selector=dict(type="scatter"))
         chart_layout(fig, 350)
         st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
         with st.expander("View daily waiting-time trend"):
@@ -357,6 +337,7 @@ with pages[3]:
             fig2 = px.area(daily_wait, x="Date", y="Waiting_Time_Min")
             fig2.update_traces(line_color="#ec83d2", fillcolor="rgba(236,131,210,.14)", hovertemplate="Date=%{x|%b %d, %Y}<br>Waiting_Time_Min=%{y:.1f}<extra></extra>")
             fig2.update_layout(title="Average estimated wait by day")
+            fig2.update_yaxes(tickformat=".1f")
             chart_layout(fig2, 300)
             st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
 
@@ -371,8 +352,9 @@ with pages[4]:
     section("Highest-occupancy location and time combinations", "The busiest combinations appear first.")
     top = forecast.head(10).sort_values("Expected_Occupancy")
     fig = px.bar(top, x="Expected_Occupancy", y="Location", color="Expected_Occupancy", orientation="h",
-        facet_col="Time_Slot", facet_col_wrap=3, color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"])
+        facet_col="Time_Slot", facet_col_wrap=3, color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
     fig.update_layout(coloraxis_showscale=False)
+    fig.update_traces(hovertemplate="%{y}<br>Average occupancy: %{x:.2f}%<br>Average wait: %{customdata[0]:.1f} min<extra></extra>")
     chart_layout(fig, 490)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
     with st.expander("Open the complete historical baseline table"):
