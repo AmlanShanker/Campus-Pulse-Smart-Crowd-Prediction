@@ -390,10 +390,11 @@ with pages[4]:
         Expected_Occupancy=("Occupancy_Rate", "mean"),
         Expected_Wait=("Waiting_Time_Min", "mean"))
     forecast = forecast.sort_values("Expected_Occupancy", ascending=False)
-    # Explicit HH:MM ordering keeps the facet timeline chronological, not alphabetical.
-    time_slot_order = sorted(forecast["Time_Slot"].dropna().unique(), key=lambda value: pd.to_datetime(value, format="%H:%M").time())
-    section("Highest-occupancy location and time combinations", "The busiest combinations appear first.")
+    section("Highest-occupancy location and time combinations", "Only time slots represented in these results are shown, in chronological order.")
     top = forecast.head(10).sort_values("Expected_Occupancy")
+    # Build the facet order from the displayed rows only: omit absent time slots
+    # and keep the remaining HH:MM values in true clock order.
+    time_slot_order = sorted(top["Time_Slot"].dropna().unique(), key=lambda value: pd.to_datetime(value, format="%H:%M").time())
     fig = px.bar(top, x="Expected_Occupancy", y="Location", color="Expected_Occupancy", orientation="h",
         facet_col="Time_Slot", facet_col_wrap=3, category_orders={"Time_Slot": time_slot_order},
         color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
