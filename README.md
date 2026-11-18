@@ -1,56 +1,100 @@
 # CHRIST Campus Pulse
 
-**A Smart Campus Monitoring, Crowd Analytics & Prediction Dashboard** built with Python, Streamlit, Pandas and Plotly.
+**A Smart Campus Monitoring, Crowd Analytics & Prediction Dashboard**  
+An academic dashboard built with **Python, Streamlit, Pandas and Plotly** for the MCA Python Programming course (MCA411-2).
 
-> Academic prototype for MCA Python Programming (MCA411-2). The bundled dataset is synthetic demonstration data. It is not official CHRIST University telemetry and must not be represented as measured university data.
+> **Data notice:** This project uses a bundled synthetic dataset for demonstration. It does not use live student data, official CHRIST University telemetry, or real-time campus sensors. Location names and capacity figures are illustrative.
 
-## Dashboard features
+## What the dashboard does
 
-- Dark, responsive interface with subtle motion and reduced-motion accessibility support.
-- Campus overview KPIs and daily activity trends.
-- Crowd-intelligence heatmap, crowd distribution and occupancy analysis.
-- Library occupancy, estimated seat availability and weekday/time patterns.
-- Cafeteria waiting-time and peak-hour analytics.
-- Filter-aware Smart Insights based on transparent historical averages.
-- Shared date-range and campus-location filters.
-- Bundled CSV dataset; no login, student data-entry forms, external APIs or database required.
+Campus Pulse presents campus-space activity through five focused views. Use the shared sidebar filters to select an observation date range and one or more locations; the charts and summary metrics update to reflect that selection.
 
-## Run locally
+| Dashboard view | What you can explore |
+| --- | --- |
+| **Overview** | Campus-wide occupancy KPIs, daily activity trends, average utilization by location and crowd-level distribution. |
+| **Crowd intelligence** | Location-by-time occupancy heatmap, crowd-level readings by location and occupancy spread. |
+| **Library** | Average occupancy, estimated free seats, peak and quiet study periods, weekday patterns, daily breakdown and CSV export. |
+| **Cafeteria** | Average and peak estimated waiting times, occupancy by time slot and daily waiting-time trends. |
+| **Smart insights** | Highest-occupancy location/time combinations, estimated waiting-time highlights and a historical-average baseline. |
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+The interface uses a dark theme, responsive layouts, subtle transitions and reduced-motion support. It is a dashboard only: there are no student accounts, login screens or data-entry forms.
+
+## Smart Insights: how the estimates work
+
+Smart Insights groups the selected historical observations by **location** and **time slot**, then calculates average occupancy and average waiting time for each group. It highlights the busiest combinations and displays the highest-occupancy results.
+
+This is a **historical-average baseline**, not a trained machine-learning model, predictive AI system or live forecast. The estimates describe patterns in the selected synthetic demonstration data only.
 
 ## Dataset
 
-File: `data/christ_campus_pulse_data.csv`
+Bundled file: `data/christ_campus_pulse_data.csv`
 
-- 1,440 synthetic observations across 30 dates and 8 illustrative campus locations.
-- Six daily time slots per location.
-- Includes occupancy, assumed capacity, crowd level, estimated waiting time and available seats.
+The dataset contains **1,440 synthetic observations** across **30 dates** (19 October–17 November 2026), **8 illustrative campus locations** and **6 daily time slots**.
 
-Location names are illustrative dashboard categories. Values are generated for demonstration and do not describe actual campus conditions.
+The records include:
 
-## Run quality checks
+- Observation date, time, weekday and location
+- Crowd-level category
+- Occupancy and assumed capacity
+- Estimated waiting time in minutes
+- Estimated available seats
+- Data-type label
 
-Install the development test dependency and run the automated dataset checks:
+Occupancy percentages and summary values are calculated by the dashboard from these fields. Capacity, seat availability and waiting times are illustrative values—not measurements of actual campus facilities.
+
+## Run locally
+
+Python 3.10 or later is recommended.
+
+1. Clone the repository and open its folder:
+
+   ```bash
+   git clone https://github.com/AmlanShanker/Campus-Pulse-Smart-Crowd-Prediction.git
+   cd Campus-Pulse-Smart-Crowd-Prediction
+   ```
+
+2. (Optional) Create and activate a virtual environment:
+
+   **Windows PowerShell**
+   ```powershell
+   python -m venv .venv
+   .venv\\Scripts\\Activate.ps1
+   ```
+
+   **macOS / Linux**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
+
+3. Install the application dependencies and launch Streamlit:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   streamlit run app.py
+   ```
+
+Streamlit will print a local URL (usually `http://localhost:8501`) to open in your browser.
+
+## Quality checks
+
+The repository includes automated dataset tests and a GitHub Actions quality-check workflow. To run the checks locally:
 
 ```bash
-pip install -r requirements.txt -r requirements-dev.txt
+python -m pip install -r requirements.txt -r requirements-dev.txt
 python -m compileall -q app.py
 pytest -q
 ```
 
-GitHub Actions runs syntax and dataset checks on pushes to `main` and pull requests targeting `main`.
+## Deploy with Streamlit Community Cloud
 
-## Deploy on Streamlit Community Cloud
+1. Push or merge the reviewed project changes to the repository's `main` branch.
+2. Open [Streamlit Community Cloud](https://share.streamlit.io/) and sign in.
+3. Create a new app and select this GitHub repository.
+4. Choose branch `main` and set the main file path to `app.py`.
+5. Deploy the app.
 
-1. Sign in at [Streamlit Community Cloud](https://share.streamlit.io/).
-2. Create an app and select this repository.
-3. Select branch `main` after merging the reviewed changes.
-4. Set the main file path to `app.py`.
-5. Deploy.
+The app reads its CSV from the repository's `data/` directory, so keep the bundled dataset in place when deploying. No secrets, external API keys or database configuration are required by the current implementation.
 
 ## Project structure
 
@@ -61,15 +105,15 @@ GitHub Actions runs syntax and dataset checks on pushes to `main` and pull reque
 │   └── christ_campus_pulse_data.csv
 ├── tests/
 │   └── test_dataset.py
+├── .streamlit/
+│   └── config.toml
 ├── requirements.txt
 ├── requirements-dev.txt
-├── README.md
-└── .streamlit/
-    └── config.toml
+└── README.md
 ```
 
-## Academic note
+## Academic scope and disclaimer
 
-The Smart Insights page uses a transparent historical-average baseline, not a trained machine-learning model or live prediction. This keeps the logic explainable for a viva. The application is a dashboard only: there are no student data-entry workflows or user accounts.
+CHRIST Campus Pulse is an independent academic prototype created for MCA411-2. It demonstrates dashboard design, data filtering, exploratory analysis and clear presentation of historical averages using Python.
 
-The dashboard is an independent academic prototype and is not affiliated with or endorsed by CHRIST University.
+It is **not** an official CHRIST University system, is not affiliated with or endorsed by the University, and must not be used to infer actual campus occupancy or operational conditions.
