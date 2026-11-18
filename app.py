@@ -87,6 +87,8 @@ hr{border-color:var(--line)}
 .filter-strip .filter-hint{margin-left:auto;color:#8295b3}
 @media(max-width:900px){.block-container{padding-left:1.2rem;padding-right:1.2rem}.hero{padding:1.25rem}}
 @media(max-width:700px){.masthead{align-items:flex-start;flex-direction:column}.masthead-status{align-self:flex-start}.filter-strip .filter-hint{margin-left:0}.hero{padding:1.1rem}.kpi-value{font-size:1.5rem}.block-container{padding-left:1rem;padding-right:1rem}.stTabs [data-baseweb="tab"]{padding:8px 11px;font-size:.82rem}}
+:focus-visible{outline:2px solid var(--cyan)!important;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 
 </style>
 """, unsafe_allow_html=True)
@@ -238,8 +240,8 @@ with pages[0]:
 with pages[1]:
     hero("CAMPUS INTELLIGENCE / CROWD", "Understand the movement.", "Compare crowd intensity by place and time without stacking every chart on one screen.", start_date, end_date)
     c1, c2, c3 = st.columns(3)
-    with c1: kpi("Average occupancy", f"{avg_occ:.0f}%", "Across selected spaces")
-    with c2: kpi("High-crowd readings", f"{high_share:.0f}%", "Of selected observations")
+    with c1: kpi("Average occupancy", f"{avg_occ:.2f}%", "Across selected spaces")
+    with c2: kpi("High-crowd readings", f"{high_share:.2f}%", "Of selected observations")
     with c3: kpi("Busiest location", busiest, "Highest mean utilization")
     section("Crowd intensity map", "Average occupancy by location and time slot. Brighter cells indicate fuller spaces.")
     heat = filtered.pivot_table(index="Location", columns="Time_Slot", values="Occupancy_Rate", aggfunc="mean")
@@ -279,7 +281,7 @@ with pages[2]:
         peak_slot = peak_row["Time_Slot"]
         k1, k2, k3, k4 = st.columns(4)
         with k1: kpi("Average occupancy", f"{avg_library:.2f}%", "Of assumed library capacity")
-        with k2: kpi("Average seats free", f"{mean_seats:.0f}", "Estimated seats per reading")
+        with k2: kpi("Average seats free", f"{mean_seats:.1f}", "Estimated seats per reading")
         with k3: kpi("Peak occupancy", f"{library['Occupancy_Rate'].max():.2f}%", f"Highest reading · {peak_slot}")
         with k4: kpi("Assumed capacity", f"{capacity:,}", "Illustrative dataset value")
 
@@ -359,8 +361,8 @@ with pages[3]:
         st.warning("Cafeteria is excluded by the current location filter. Add it in Dashboard filters to view cafeteria analytics.")
     else:
         c1, c2, c3 = st.columns(3)
-        with c1: kpi("Average wait", f"{cafe['Waiting_Time_Min'].mean():.0f} min", "Estimated queue duration")
-        with c2: kpi("Peak wait", f"{cafe['Waiting_Time_Min'].max():.0f} min", "Maximum estimated wait")
+        with c1: kpi("Average wait", f"{cafe['Waiting_Time_Min'].mean():.1f} min", "Estimated queue duration")
+        with c2: kpi("Peak wait", f"{cafe['Waiting_Time_Min'].max():.1f} min", "Maximum estimated wait")
         with c3: kpi("Average occupancy", f"{cafe['Occupancy_Rate'].mean():.2f}%", "Of assumed cafeteria capacity")
         section("Queue pattern by time", "Compare average waiting time with occupancy for each time slot.")
         wait = cafe.groupby("Time_Slot", as_index=False).agg(Wait=("Waiting_Time_Min", "mean"), Occupancy=("Occupancy_Rate", "mean"))
@@ -390,7 +392,22 @@ with pages[4]:
         Expected_Occupancy=("Occupancy_Rate", "mean"),
         Expected_Wait=("Waiting_Time_Min", "mean"))
     forecast = forecast.sort_values("Expected_Occupancy", ascending=False)
-    section("Highest-occupancy location and time combinations", "Only time slots represented in these results are shown, in chronological order.")
+
+    # Compact, filter-aware findings make the baseline useful before reading the chart.
+    busiest_combo = forecast.loc[forecast["Expected_Occupancy"].idxmax()]
+    longest_wait = forecast.loc[forecast["Expected_Wait"].idxmax()]
+    busiest_slot = (forecast.groupby("Time_Slot")["Expected_Occupancy"].mean()
+                    .sort_values(ascending=False).index[0])
+    insight_cols = st.columns(3)
+    with insight_cols[0]:
+        kpi("Busiest combination", busiest_combo["Location"], f"{busiest_combo['Time_Slot']} · {busiest_combo['Expected_Occupancy']:.2f}%")
+    with insight_cols[1]:
+        kpi("Longest estimated wait", f"{longest_wait['Expected_Wait']:.1f} min", f"{longest_wait['Location']} · {longest_wait['Time_Slot']}")
+    with insight_cols[2]:
+        slot_mean = forecast.loc[forecast["Time_Slot"] == busiest_slot, "Expected_Occupancy"].mean()
+        kpi("Busiest average time", busiest_slot, f"{slot_mean:.2f}% mean occupancy")
+
+    section("Highest-occupancy location and time combinations", "Only time slots represented in the displayed results are shown, in chronological order.")
     top = forecast.head(10).sort_values("Expected_Occupancy")
     # Build the facet order from the displayed rows only: omit absent time slots
     # and keep the remaining HH:MM values in true clock order.
@@ -399,6 +416,7 @@ with pages[4]:
         facet_col="Time_Slot", facet_col_wrap=3, category_orders={"Time_Slot": time_slot_order},
         color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
     fig.update_layout(coloraxis_showscale=False)
+    fig.for_each_annotation(lambda annotation: annotation.update(text=annotation.text.replace("Time_Slot=", "")))
     fig.update_traces(hovertemplate="%{y}<br>Average occupancy: %{x:.2f}%<br>Average wait: %{customdata[0]:.1f} min<extra></extra>")
     chart_layout(fig, 490)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
