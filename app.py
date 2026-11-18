@@ -61,7 +61,10 @@ hr{border-color:var(--line)}
 @media(max-width:700px){.hero{padding:1.1rem}.kpi-value{font-size:1.5rem}.block-container{padding-left:1rem;padding-right:1rem}}
 
 /* Layout refinement */
-.block-container{padding-top:1.9rem;padding-bottom:3rem;max-width:1360px;padding-left:2.2rem;padding-right:2.2rem}
+.block-container{padding-top:4.6rem !important;padding-bottom:3rem;max-width:1360px;padding-left:2.2rem;padding-right:2.2rem}
+[data-testid="stAppViewContainer"] > .main .block-container{padding-top:4.6rem !important}
+[data-testid="stHeader"]{height:3.5rem;background:rgba(17,26,41,.98);z-index:1000}
+[data-testid="stToolbar"]{right:1rem;top:.45rem}
 [data-testid="stSidebar"] .block-container{padding:1.5rem 1rem}
 [data-testid="stSidebar"] [data-testid="stExpander"]{background:rgba(12,22,37,.24);border:1px solid rgba(148,163,184,.14);border-radius:13px}
 .hero{padding:1.55rem 1.8rem;margin:0 0 1.1rem;border-radius:22px;box-shadow:0 16px 42px rgba(0,0,0,.12)}
@@ -387,10 +390,13 @@ with pages[4]:
         Expected_Occupancy=("Occupancy_Rate", "mean"),
         Expected_Wait=("Waiting_Time_Min", "mean"))
     forecast = forecast.sort_values("Expected_Occupancy", ascending=False)
+    # Explicit HH:MM ordering keeps the facet timeline chronological, not alphabetical.
+    time_slot_order = sorted(forecast["Time_Slot"].dropna().unique(), key=lambda value: pd.to_datetime(value, format="%H:%M").time())
     section("Highest-occupancy location and time combinations", "The busiest combinations appear first.")
     top = forecast.head(10).sort_values("Expected_Occupancy")
     fig = px.bar(top, x="Expected_Occupancy", y="Location", color="Expected_Occupancy", orientation="h",
-        facet_col="Time_Slot", facet_col_wrap=3, color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
+        facet_col="Time_Slot", facet_col_wrap=3, category_orders={"Time_Slot": time_slot_order},
+        color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
     fig.update_layout(coloraxis_showscale=False)
     fig.update_traces(hovertemplate="%{y}<br>Average occupancy: %{x:.2f}%<br>Average wait: %{customdata[0]:.1f} min<extra></extra>")
     chart_layout(fig, 490)
