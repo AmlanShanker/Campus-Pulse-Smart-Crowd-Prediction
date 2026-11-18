@@ -269,7 +269,7 @@ with pages[2]:
     if library.empty:
         st.warning("Central Library is excluded by the current location filter. Add it in Dashboard filters to view library analytics.")
     else:
-            avg_library = library["Occupancy_Rate"].mean()
+        avg_library = library["Occupancy_Rate"].mean()
         mean_seats = library["Available_Seats"].mean()
         peak_row = library.loc[library["Occupancy_Rate"].idxmax()]
         capacity = library["Capacity"].iloc[0]
@@ -355,7 +355,7 @@ with pages[3]:
     if cafe.empty:
         st.warning("Cafeteria is excluded by the current location filter. Add it in Dashboard filters to view cafeteria analytics.")
     else:
-            c1, c2, c3 = st.columns(3)
+        c1, c2, c3 = st.columns(3)
         with c1: kpi("Average wait", f"{cafe['Waiting_Time_Min'].mean():.0f} min", "Estimated queue duration")
         with c2: kpi("Peak wait", f"{cafe['Waiting_Time_Min'].max():.0f} min", "Maximum estimated wait")
         with c3: kpi("Average occupancy", f"{cafe['Occupancy_Rate'].mean():.2f}%", "Of assumed cafeteria capacity")
