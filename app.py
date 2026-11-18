@@ -261,7 +261,7 @@ with pages[2]:
                 line=dict(color="#54d8f5", width=3), marker=dict(size=9, color="#9a8cff"),
                 fill="tozeroy", fillcolor="rgba(84,216,245,.10)", name="Average occupancy",
                 hovertemplate="%{x}<br>Average occupancy: %{y:.2f}%<extra></extra>"))
-            fig.update_layout(yaxis_title="Occupancy (%)", xaxis_title="Time slot", yaxis_range=[0, 100])
+            fig.update_layout(yaxis_title="Occupancy (%)", xaxis_title="Time slot", yaxis_range=[0, 100], yaxis_tickformat=".2f")
             chart_layout(fig, 330)
             st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
             section("Weekly rhythm", "This heatmap compares the average library occupancy across weekdays and time slots.")
@@ -327,7 +327,7 @@ with pages[3]:
         fig.add_trace(go.Bar(x=wait["Time_Slot"], y=wait["Wait"], name="Wait (minutes)", marker_color="#9a8cff"))
         fig.add_trace(go.Scatter(x=wait["Time_Slot"], y=wait["Occupancy"], name="Occupancy (%)", mode="lines+markers",
             yaxis="y2", line=dict(color="#54d8f5", width=3)))
-        fig.update_layout(yaxis=dict(title="Wait (min)"), yaxis2=dict(title="Occupancy (%)", overlaying="y", side="right", showgrid=False))
+        fig.update_layout(yaxis=dict(title="Wait (min)", tickformat=".1f"), yaxis2=dict(title="Occupancy (%)", overlaying="y", side="right", showgrid=False, tickformat=".2f"))
         fig.update_traces(hovertemplate="%{x}<br>Average wait: %{y:.1f} min<extra></extra>", selector=dict(type="bar"))
         fig.update_traces(hovertemplate="%{x}<br>Average occupancy: %{y:.2f}%<extra></extra>", selector=dict(type="scatter"))
         chart_layout(fig, 350)
@@ -337,6 +337,7 @@ with pages[3]:
             fig2 = px.area(daily_wait, x="Date", y="Waiting_Time_Min")
             fig2.update_traces(line_color="#ec83d2", fillcolor="rgba(236,131,210,.14)", hovertemplate="Date=%{x|%b %d, %Y}<br>Waiting_Time_Min=%{y:.1f}<extra></extra>")
             fig2.update_layout(title="Average estimated wait by day")
+            fig2.update_yaxes(tickformat=".1f")
             chart_layout(fig2, 300)
             st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
 
@@ -351,9 +352,9 @@ with pages[4]:
     section("Highest-occupancy location and time combinations", "The busiest combinations appear first.")
     top = forecast.head(10).sort_values("Expected_Occupancy")
     fig = px.bar(top, x="Expected_Occupancy", y="Location", color="Expected_Occupancy", orientation="h",
-        facet_col="Time_Slot", facet_col_wrap=3, color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"])
+        facet_col="Time_Slot", facet_col_wrap=3, color_continuous_scale=["#43d6a0", "#54d8f5", "#9a8cff"], custom_data=["Expected_Wait"])
     fig.update_layout(coloraxis_showscale=False)
-    fig.update_traces(hovertemplate="%{y}<br>%{x}: %{marker.color:.2f}% occupancy<extra></extra>")
+    fig.update_traces(hovertemplate="%{y}<br>Average occupancy: %{x:.2f}%<br>Average wait: %{customdata[0]:.1f} min<extra></extra>")
     chart_layout(fig, 490)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
     with st.expander("Open the complete historical baseline table"):
