@@ -9,7 +9,7 @@ st.set_page_config(
     page_title="Campus Pulse | CHRIST University",
     page_icon="🟣",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 DATA_PATH = Path(__file__).parent / "data" / "christ_campus_pulse_data.csv"
@@ -59,6 +59,32 @@ hr{border-color:var(--line)}
 @keyframes softIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,224,160,.5)}70%{box-shadow:0 0 0 7px rgba(76,224,160,0)}100%{box-shadow:0 0 0 0 rgba(76,224,160,0)}}
 @media(max-width:700px){.hero{padding:1.1rem}.kpi-value{font-size:1.5rem}.block-container{padding-left:1rem;padding-right:1rem}}
+
+/* Layout refinement */
+.block-container{padding-top:1.9rem;padding-bottom:3rem;max-width:1360px;padding-left:2.2rem;padding-right:2.2rem}
+[data-testid="stSidebar"] .block-container{padding:1.5rem 1rem}
+[data-testid="stSidebar"] [data-testid="stExpander"]{background:rgba(12,22,37,.24);border:1px solid rgba(148,163,184,.14);border-radius:13px}
+.hero{padding:1.55rem 1.8rem;margin:0 0 1.1rem;border-radius:22px;box-shadow:0 16px 42px rgba(0,0,0,.12)}
+.hero p{color:#c3d0e3;line-height:1.65}
+.kpi{border-color:rgba(148,163,184,.17);border-radius:16px;padding:16px 17px;min-height:116px;display:flex;flex-direction:column;justify-content:center}
+.section-title{margin:1.55rem 0 .28rem;padding-left:11px;border-left:3px solid rgba(84,216,245,.72)}
+.section-note{color:#91a3bd;margin:0 0 .75rem 14px;line-height:1.55}
+.stTabs [data-baseweb="tab-list"]{gap:8px;border-bottom:1px solid var(--line);padding:0 0 10px;margin:0 0 1.2rem;flex-wrap:wrap}
+.stTabs [data-baseweb="tab"]{background:rgba(26,41,64,.78);border:1px solid rgba(148,163,184,.13);border-radius:11px;padding:10px 17px;margin:0 2px}
+.stTabs [aria-selected="true"]{background:linear-gradient(120deg,#24405a,#302e55)!important;border-color:rgba(84,216,245,.36)!important;color:#f5f8ff!important;box-shadow:0 5px 18px rgba(0,0,0,.12)}
+[data-testid="stPlotlyChart"]{background:rgba(18,29,46,.42);border:1px solid rgba(148,163,184,.10);border-radius:16px;padding:7px 8px 2px;margin:.25rem 0 .75rem;overflow:hidden}
+.masthead{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.2rem 0 1.1rem;margin-bottom:.7rem;border-bottom:1px solid var(--line)}
+.masthead-title{font-size:clamp(2rem,4vw,2.8rem);font-weight:800;letter-spacing:-.06em;color:#f4f8ff;line-height:1.12;margin:.3rem 0}
+.masthead-subtitle{font-size:.88rem;color:#a8b9d1}
+.masthead-status{white-space:nowrap;border:1px solid rgba(76,224,160,.2);background:rgba(76,224,160,.07);padding:9px 13px;border-radius:999px;color:#bcebd7;font:500 .65rem monospace;letter-spacing:.07em}
+.filter-strip{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 13px;margin:0 0 1.15rem;background:rgba(25,39,61,.7);border:1px solid var(--line);border-radius:13px;color:#c4d0e3;font-size:.73rem}
+.filter-strip span{padding:3px 8px;border-right:1px solid rgba(148,163,184,.16)}
+.filter-strip span:last-child{border:0}
+.filter-strip b{color:#8fa5c5;font:500 .62rem monospace;letter-spacing:.08em;margin-right:6px}
+.filter-strip .filter-hint{margin-left:auto;color:#8295b3}
+@media(max-width:900px){.block-container{padding-left:1.2rem;padding-right:1.2rem}.hero{padding:1.25rem}}
+@media(max-width:700px){.masthead{align-items:flex-start;flex-direction:column}.masthead-status{align-self:flex-start}.filter-strip .filter-hint{margin-left:0}.hero{padding:1.1rem}.kpi-value{font-size:1.5rem}.block-container{padding-left:1rem;padding-right:1rem}.stTabs [data-baseweb="tab"]{padding:8px 11px;font-size:.82rem}}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -149,16 +175,30 @@ high_share = filtered["Crowd_Level"].eq("High").mean() * 100
 busiest = filtered.groupby("Location")["Occupancy_Rate"].mean().idxmax()
 total_observations = len(filtered)
 
-st.markdown('<div class="brand">SMART CAMPUS MONITORING · CROWD ANALYTICS · HISTORICAL PATTERNS</div>', unsafe_allow_html=True)
-st.title("Campus Pulse")
-st.caption("A calmer, clearer view of campus activity. Choose a workspace below; your filters remain consistent across pages.")
+st.markdown("""
+<div class="masthead">
+  <div>
+    <div class="brand">CHRIST CAMPUS INTELLIGENCE · MCA 411-2</div>
+    <div class="masthead-title">Campus Pulse</div>
+    <div class="masthead-subtitle">A focused view of campus activity, crowd patterns and shared spaces.</div>
+  </div>
+  <div class="masthead-status"><span class="dot"></span>DEMO DATASET READY</div>
+</div>
+""", unsafe_allow_html=True)
+st.markdown(f"""
+<div class="filter-strip">
+  <span><b>PERIOD</b> {start_date:%d %b %Y} — {end_date:%d %b %Y}</span>
+  <span><b>LOCATIONS</b> {filtered["Location"].nunique()} selected</span>
+  <span><b>READINGS</b> {total_observations:,}</span>
+  <span class="filter-hint">Filters available in the sidebar</span>
+</div>
+""", unsafe_allow_html=True)
 
 pages = st.tabs(["Overview", "Crowd intelligence", "Library", "Cafeteria", "Smart insights"])
 
 # OVERVIEW
 with pages[0]:
     hero("CAMPUS INTELLIGENCE / OVERVIEW", "See the pulse of campus.", "A concise snapshot of activity patterns across the selected campus spaces.", start_date, end_date)
-    st.write("")
     c1, c2, c3, c4 = st.columns(4)
     with c1: kpi("Average occupancy", f"{avg_occ:.2f}%", "Mean capacity utilization")
     with c2: kpi("High-crowd readings", f"{high_share:.2f}%", "Share of selected observations")
@@ -193,7 +233,6 @@ with pages[0]:
 # CROWD INTELLIGENCE
 with pages[1]:
     hero("CAMPUS INTELLIGENCE / CROWD", "Understand the movement.", "Compare crowd intensity by place and time without stacking every chart on one screen.", start_date, end_date)
-    st.write("")
     c1, c2, c3 = st.columns(3)
     with c1: kpi("Average occupancy", f"{avg_occ:.0f}%", "Across selected spaces")
     with c2: kpi("High-crowd readings", f"{high_share:.0f}%", "Of selected observations")
@@ -229,8 +268,7 @@ with pages[2]:
     if library.empty:
         st.warning("Central Library is excluded by the current location filter. Add it in Dashboard filters to view library analytics.")
     else:
-        st.write("")
-        avg_library = library["Occupancy_Rate"].mean()
+            avg_library = library["Occupancy_Rate"].mean()
         mean_seats = library["Available_Seats"].mean()
         peak_row = library.loc[library["Occupancy_Rate"].idxmax()]
         capacity = library["Capacity"].iloc[0]
@@ -316,8 +354,7 @@ with pages[3]:
     if cafe.empty:
         st.warning("Cafeteria is excluded by the current location filter. Add it in Dashboard filters to view cafeteria analytics.")
     else:
-        st.write("")
-        c1, c2, c3 = st.columns(3)
+            c1, c2, c3 = st.columns(3)
         with c1: kpi("Average wait", f"{cafe['Waiting_Time_Min'].mean():.0f} min", "Estimated queue duration")
         with c2: kpi("Peak wait", f"{cafe['Waiting_Time_Min'].max():.0f} min", "Maximum estimated wait")
         with c3: kpi("Average occupancy", f"{cafe['Occupancy_Rate'].mean():.2f}%", "Of assumed cafeteria capacity")
