@@ -174,6 +174,7 @@ avg_occ = filtered["Occupancy_Rate"].mean()
 high_share = filtered["Crowd_Level"].eq("High").mean() * 100
 busiest = filtered.groupby("Location")["Occupancy_Rate"].mean().idxmax()
 total_observations = len(filtered)
+selected_location_count = filtered["Location"].nunique()
 
 st.markdown("""
 <div class="masthead">
@@ -188,7 +189,7 @@ st.markdown("""
 st.markdown(f"""
 <div class="filter-strip">
   <span><b>PERIOD</b> {start_date:%d %b %Y} — {end_date:%d %b %Y}</span>
-  <span><b>LOCATIONS</b> {filtered["Location"].nunique()} selected</span>
+  <span><b>LOCATIONS</b> {selected_location_count} selected</span>
   <span><b>READINGS</b> {total_observations:,}</span>
   <span class="filter-hint">Filters available in the sidebar</span>
 </div>
