@@ -3,6 +3,10 @@
 **A Smart Campus Monitoring, Crowd Analytics & Prediction Dashboard**  
 An academic dashboard built with **Python, Streamlit, Pandas and Plotly** for the MCA Python Programming course (MCA411-2).
 
+## Live dashboard
+
+Explore the deployed application: **[CHRIST Campus Pulse – Open Dashboard](https://campus-pulse-smart-crowd-prediction.streamlit.app/)**
+
 > **Data notice:** This project uses a bundled synthetic dataset for demonstration. It does not use live student data, official CHRIST University telemetry, or real-time campus sensors. Location names and capacity figures are illustrative.
 
 ## What the dashboard does
