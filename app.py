@@ -17,23 +17,23 @@ DATA_PATH = Path(__file__).parent / "data" / "christ_campus_pulse_data.csv"
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
-:root{--bg:#080d19;--panel:#111d30;--line:rgba(148,163,184,.14);--muted:#91a2bd;--text:#edf4ff;--cyan:#54d8f5;--violet:#9a8cff}
+:root{--bg:#111a29;--panel:#1a2940;--line:rgba(148,163,184,.14);--muted:#91a2bd;--text:#edf4ff;--cyan:#54d8f5;--violet:#9a8cff}
 html,body,[class*="css"]{font-family:'Manrope',sans-serif}
-.stApp{background:radial-gradient(ellipse at 10% 0%,rgba(65,91,180,.16),transparent 34%),radial-gradient(ellipse at 90% 8%,rgba(127,77,194,.12),transparent 30%),var(--bg);color:var(--text)}
-[data-testid="stHeader"]{background:rgba(8,13,25,.72)}
-[data-testid="stSidebar"]{background:linear-gradient(180deg,#101a2b,#0b1322);border-right:1px solid var(--line)}
+.stApp{background:radial-gradient(ellipse at 10% 0%,rgba(79,112,190,.19),transparent 34%),radial-gradient(ellipse at 90% 8%,rgba(139,94,198,.15),transparent 30%),var(--bg);color:var(--text)}
+[data-testid="stHeader"]{background:rgba(17,26,41,.82)}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#1b2a40,#142136);border-right:1px solid var(--line)}
 [data-testid="stSidebar"] *{color:#dce7fa}
 .block-container{padding-top:1.5rem;padding-bottom:2.5rem;max-width:1440px}
 h1,h2,h3{color:var(--text)!important;letter-spacing:-.035em}
 p,label,.stMarkdown{color:#c4d0e3}
 .brand{font:500 .7rem 'DM Mono',monospace;letter-spacing:.18em;color:var(--cyan);text-transform:uppercase}
-.hero{padding:1.35rem 1.6rem;border:1px solid rgba(127,155,210,.2);border-radius:20px;background:linear-gradient(115deg,rgba(26,43,72,.92),rgba(19,27,49,.84) 58%,rgba(55,36,81,.65));position:relative;overflow:hidden;animation:rise .5s ease both}
+.hero{padding:1.35rem 1.6rem;border:1px solid rgba(127,155,210,.2);border-radius:20px;background:linear-gradient(115deg,rgba(38,57,88,.96),rgba(29,43,67,.92) 58%,rgba(66,48,91,.78));position:relative;overflow:hidden;animation:rise .5s ease both}
 .hero:after{content:'';position:absolute;width:220px;height:220px;right:-75px;top:-135px;border-radius:50%;border:1px solid rgba(84,216,245,.22);box-shadow:0 0 0 28px rgba(84,216,245,.025),0 0 0 58px rgba(154,140,255,.025)}
 .hero h1{font-size:clamp(1.8rem,3.5vw,2.8rem);font-weight:800;margin:.25rem 0}
 .hero p{color:#b9c8df;max-width:760px;margin:0;font-size:.94rem}
 .hero-meta{margin-top:13px;font: .68rem 'DM Mono',monospace;color:#8fa5c5;letter-spacing:.07em}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#4ce0a0;margin-right:8px;box-shadow:0 0 0 0 rgba(76,224,160,.55);animation:pulse 1.8s infinite}
-.kpi{background:linear-gradient(145deg,rgba(22,36,59,.94),rgba(15,25,43,.94));border:1px solid var(--line);border-radius:15px;padding:14px 16px;min-height:105px;transition:transform .2s ease,border-color .2s ease}
+.kpi{background:linear-gradient(145deg,rgba(34,50,75,.97),rgba(25,39,61,.97));border:1px solid var(--line);border-radius:15px;padding:14px 16px;min-height:105px;transition:transform .2s ease,border-color .2s ease}
 .kpi{animation:softIn .55s ease both}
 .kpi:hover{transform:translateY(-3px);border-color:rgba(84,216,245,.4);box-shadow:0 10px 26px rgba(0,0,0,.10)}
 .stTabs [data-baseweb="tab"]{transition:background .22s ease,color .22s ease,transform .22s ease}
@@ -51,7 +51,7 @@ p,label,.stMarkdown{color:#c4d0e3}
 .stTabs [data-baseweb="tab-list"]{gap:7px;border-bottom:1px solid var(--line)}
 .stTabs [data-baseweb="tab"]{background:#111d30;border-radius:9px 9px 0 0;padding:9px 15px}
 .stTabs [aria-selected="true"]{background:#1b2c46!important}
-div[data-testid="stMetric"]{background:rgba(16,26,43,.75);border:1px solid var(--line);padding:12px 14px;border-radius:13px}
+div[data-testid="stMetric"]{background:rgba(29,44,66,.88);border:1px solid var(--line);padding:12px 14px;border-radius:13px}
 div[data-testid="stMetricLabel"] p{color:#9eb0ca!important}
 div[data-testid="stMetricValue"]{color:#f4f8ff!important}
 hr{border-color:var(--line)}
@@ -130,26 +130,26 @@ with st.sidebar:
 if light_theme:
     st.markdown("""
     <style>
-    .stApp{background:radial-gradient(ellipse at 10% 0%,rgba(84,130,190,.10),transparent 36%),#f3f6fb!important;color:#243247!important}
-    [data-testid="stHeader"]{background:rgba(243,246,251,.88)!important}
-    [data-testid="stSidebar"]{background:linear-gradient(180deg,#ffffff,#edf2f8)!important;border-right:1px solid #dce4ef!important}
-    [data-testid="stSidebar"] *{color:#33445b!important}
-    h1,h2,h3{color:#1d2b40!important}
+    .stApp{background:radial-gradient(ellipse at 10% 0%,rgba(84,130,190,.10),transparent 36%),#e8edf4!important;color:#243247!important}
+    [data-testid="stHeader"]{background:rgba(232,237,244,.94)!important}
+    [data-testid="stSidebar"]{background:linear-gradient(180deg,#e9eef5,#dfe6ef)!important;border-right:1px solid #dce4ef!important}
+    [data-testid="stSidebar"] *{color:#26364c!important}
+    h1,h2,h3{color:#17263b!important}
     p,label,.stMarkdown{color:#526176}
-    .hero{background:linear-gradient(115deg,#ffffff,#edf3fa 62%,#f2edff)!important;border-color:#dce5f0!important;box-shadow:0 12px 36px rgba(35,55,85,.07)}
-    .hero h1{color:#1d2b40!important}.hero p{color:#526176!important}.hero-meta{color:#718198!important}
+    .hero{background:linear-gradient(115deg,#f6f8fb,#e7edf5 62%,#ece8f7)!important;border-color:#dce5f0!important;box-shadow:0 12px 36px rgba(35,55,85,.07)}
+    .hero h1{color:#17263b!important}.hero p{color:#3e4d62!important}.hero-meta{color:#718198!important}
     .brand{color:#397f9b!important}
-    .kpi{background:linear-gradient(145deg,#ffffff,#f7f9fc)!important;border-color:#e0e7f0!important;box-shadow:0 5px 18px rgba(35,55,85,.045)}
-    .kpi-label{color:#68788e!important}.kpi-value{color:#1e2d43!important}.kpi-foot{color:#8290a3!important}
-    .section-title{color:#243247!important}.section-note,.small-muted{color:#77869a!important}
-    .insight{background:linear-gradient(110deg,#e8f5f8,#f0edff)!important;border-color:#d8e4f0!important;color:#33445b!important}
-    .stTabs [data-baseweb="tab"]{background:#e8edf4!important;color:#526176!important}
-    .stTabs [aria-selected="true"]{background:#ffffff!important;color:#243247!important}
-    div[data-testid="stMetric"]{background:#fff!important;border-color:#e0e7f0!important}
-    div[data-testid="stMetricLabel"] p{color:#68788e!important}
-    div[data-testid="stMetricValue"]{color:#1e2d43!important}
-    [data-testid="stExpander"]{border-color:#dce4ef!important}
-    hr{border-color:#dce4ef!important}
+    .kpi{background:linear-gradient(145deg,#f7f9fc,#edf1f6)!important;border-color:#e0e7f0!important;box-shadow:0 5px 18px rgba(35,55,85,.045)}
+    .kpi-label{color:#46566c!important}.kpi-value{color:#17263b!important}.kpi-foot{color:#8290a3!important}
+    .section-title{color:#243247!important}.section-note,.small-muted{color:#5b6b80!important}
+    .insight{background:linear-gradient(110deg,#e8f5f8,#f0edff)!important;border-color:#d8e4f0!important;color:#26364c!important}
+    .stTabs [data-baseweb="tab"]{background:#e8edf4!important;color:#3e4d62!important}
+    .stTabs [aria-selected="true"]{background:#f7f9fc!important;color:#17263b!important}
+    div[data-testid="stMetric"]{background:#f7f9fc!important;border-color:#cfd8e4!important}
+    div[data-testid="stMetricLabel"] p{color:#46566c!important}
+    div[data-testid="stMetricValue"]{color:#17263b!important}
+    [data-testid="stExpander"]{border-color:#cbd5e1!important}
+    hr{border-color:#cbd5e1!important}
     </style>
     """, unsafe_allow_html=True)
 
@@ -348,12 +348,14 @@ with pages[3]:
         fig.add_trace(go.Scatter(x=wait["Time_Slot"], y=wait["Occupancy"], name="Occupancy (%)", mode="lines+markers",
             yaxis="y2", line=dict(color="#54d8f5", width=3)))
         fig.update_layout(yaxis=dict(title="Wait (min)"), yaxis2=dict(title="Occupancy (%)", overlaying="y", side="right", showgrid=False))
+        fig.update_traces(hovertemplate="%{x}<br>Wait: %{y:.1f} min<extra></extra>", selector=dict(type="bar"))
+        fig.update_traces(hovertemplate="%{x}<br>Occupancy: %{y:.2f}%<extra></extra>", selector=dict(type="scatter"))
         chart_layout(fig, 350)
         st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
         with st.expander("View daily waiting-time trend"):
             daily_wait = cafe.groupby("Date", as_index=False)["Waiting_Time_Min"].mean()
             fig2 = px.area(daily_wait, x="Date", y="Waiting_Time_Min")
-            fig2.update_traces(line_color="#ec83d2", fillcolor="rgba(236,131,210,.14)")
+            fig2.update_traces(line_color="#ec83d2", fillcolor="rgba(236,131,210,.14)", hovertemplate="Date=%{x|%b %d, %Y}<br>Waiting_Time_Min=%{y:.1f}<extra></extra>")
             fig2.update_layout(title="Average estimated wait by day")
             chart_layout(fig2, 300)
             st.plotly_chart(fig2, use_container_width=True, config={"displayModeBar": False})
