@@ -37,7 +37,7 @@ Location names are illustrative dashboard categories. Values are generated for d
 Install the development test dependency and run the automated dataset checks:
 
 ```bash
-pip install -r requirements-dev.txt
+pip install -r requirements.txt -r requirements-dev.txt
 python -m compileall -q app.py
 pytest -q
 ```
