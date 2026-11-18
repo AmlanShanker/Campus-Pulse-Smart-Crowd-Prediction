@@ -34,7 +34,13 @@ p,label,.stMarkdown{color:#c4d0e3}
 .hero-meta{margin-top:13px;font: .68rem 'DM Mono',monospace;color:#8fa5c5;letter-spacing:.07em}
 .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#4ce0a0;margin-right:8px;box-shadow:0 0 0 0 rgba(76,224,160,.55);animation:pulse 1.8s infinite}
 .kpi{background:linear-gradient(145deg,rgba(22,36,59,.94),rgba(15,25,43,.94));border:1px solid var(--line);border-radius:15px;padding:14px 16px;min-height:105px;transition:transform .2s ease,border-color .2s ease}
-.kpi:hover{transform:translateY(-3px);border-color:rgba(84,216,245,.4)}
+.kpi{animation:softIn .55s ease both}
+.kpi:hover{transform:translateY(-3px);border-color:rgba(84,216,245,.4);box-shadow:0 10px 26px rgba(0,0,0,.10)}
+.stTabs [data-baseweb="tab"]{transition:background .22s ease,color .22s ease,transform .22s ease}
+.stTabs [data-baseweb="tab"]:hover{transform:translateY(-2px)}
+[data-testid="stPlotlyChart"]{animation:softIn .65s ease both}
+.stButton button,.stDownloadButton button{transition:transform .2s ease,box-shadow .2s ease}
+.stButton button:hover,.stDownloadButton button:hover{transform:translateY(-1px);box-shadow:0 7px 18px rgba(84,216,245,.12)}
 .kpi-label{color:#9eb0ca;font-size:.69rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .kpi-value{color:#f4f8ff;font-size:1.8rem;font-weight:800;letter-spacing:-.05em;margin:.28rem 0}
 .kpi-foot{color:#8295b3;font-size:.68rem}
@@ -50,6 +56,7 @@ div[data-testid="stMetricLabel"] p{color:#9eb0ca!important}
 div[data-testid="stMetricValue"]{color:#f4f8ff!important}
 hr{border-color:var(--line)}
 @keyframes rise{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@keyframes softIn{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(76,224,160,.5)}70%{box-shadow:0 0 0 7px rgba(76,224,160,0)}100%{box-shadow:0 0 0 0 rgba(76,224,160,0)}}
 @media(max-width:700px){.hero{padding:1.1rem}.kpi-value{font-size:1.5rem}.block-container{padding-left:1rem;padding-right:1rem}}
 </style>
@@ -76,10 +83,10 @@ def chart_layout(fig, height=330):
         template=("plotly_white" if light_theme else "plotly_dark"), height=height, margin=dict(l=8, r=8, t=42, b=8),
         transition=dict(duration=650, easing="cubic-in-out"),
         paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
-        font=dict(family="Manrope", color="#b9c8df", size=11),
-        title_font=dict(color="#edf4ff", size=14),
+        font=dict(family="Manrope", color=("#526176" if light_theme else "#b9c8df"), size=11),
+        title_font=dict(color=("#243247" if light_theme else "#edf4ff"), size=14),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        hoverlabel=dict(bgcolor="#142238", bordercolor="#526783", font_color="#fff"),
+        hoverlabel=dict(bgcolor=("#ffffff" if light_theme else "#142238"), bordercolor=("#b8c6d8" if light_theme else "#526783"), font_color=("#243247" if light_theme else "#fff")),
     )
     fig.update_xaxes(showgrid=False, linecolor="rgba(148,163,184,.12)")
     fig.update_yaxes(gridcolor="rgba(148,163,184,.10)", zeroline=False)
@@ -177,8 +184,8 @@ with pages[0]:
     hero("CAMPUS INTELLIGENCE / OVERVIEW", "See the pulse of campus.", "A concise snapshot of activity patterns across the selected campus spaces.", start_date, end_date)
     st.write("")
     c1, c2, c3, c4 = st.columns(4)
-    with c1: kpi("Average occupancy", f"{avg_occ:.0f}%", "Mean capacity utilization")
-    with c2: kpi("High-crowd readings", f"{high_share:.0f}%", "Share of selected observations")
+    with c1: kpi("Average occupancy", f"{avg_occ:.2f}%", "Mean capacity utilization")
+    with c2: kpi("High-crowd readings", f"{high_share:.2f}%", "Share of selected observations")
     with c3: kpi("Busiest location", busiest, "Highest average utilization")
     with c4: kpi("Locations included", f"{filtered['Location'].nunique()}", "In the current filter")
     section("Activity over time", "Daily average occupancy. Use the legend to focus on individual locations.")
@@ -204,7 +211,7 @@ with pages[0]:
             chart_layout(fig3, 300)
             st.plotly_chart(fig3, use_container_width=True, config={"displayModeBar": False})
     busiest_value = filtered.loc[filtered["Location"] == busiest, "Occupancy_Rate"].mean()
-    st.markdown(f'<div class="insight"><b>Key observation</b> · {busiest} records the highest average utilization in this selection ({busiest_value:.0f}% of its assumed capacity).</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="insight"><b>Key observation</b> · {busiest} records the highest average utilization in this selection ({busiest_value:.2f}% of its assumed capacity).</div>', unsafe_allow_html=True)
 
 # CROWD INTELLIGENCE
 with pages[1]:
@@ -219,7 +226,7 @@ with pages[1]:
     heat = heat.reindex(columns=sorted(heat.columns))
     fig = go.Figure(go.Heatmap(z=heat.values, x=heat.columns, y=heat.index,
         colorscale=[[0, "#163d4b"], [.5, "#4b78a8"], [1, "#c17de2"]],
-        colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>%{z:.1f}%<extra></extra>"))
+        colorbar=dict(title="Occupancy %"), hovertemplate="%{y}<br>%{x}<br>%{z:.2f}%<extra></extra>"))
     chart_layout(fig, 370)
     st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
     with st.expander("View crowd-level and occupancy distributions"):
@@ -250,9 +257,9 @@ with pages[2]:
         capacity = library["Capacity"].iloc[0]
         peak_slot = peak_row["Time_Slot"]
         k1, k2, k3, k4 = st.columns(4)
-        with k1: kpi("Average occupancy", f"{avg_library:.0f}%", "Of assumed library capacity")
+        with k1: kpi("Average occupancy", f"{avg_library:.2f}%", "Of assumed library capacity")
         with k2: kpi("Average seats free", f"{mean_seats:.0f}", "Estimated seats per reading")
-        with k3: kpi("Peak occupancy", f"{library['Occupancy_Rate'].max():.0f}%", f"Highest reading · {peak_slot}")
+        with k3: kpi("Peak occupancy", f"{library['Occupancy_Rate'].max():.2f}%", f"Highest reading · {peak_slot}")
         with k4: kpi("Assumed capacity", f"{capacity:,}", "Illustrative dataset value")
 
         usage_tab, seats_tab, detail_tab = st.tabs(["Study-hour patterns", "Seating & capacity", "Daily breakdown"])
@@ -267,9 +274,9 @@ with pages[2]:
             quiet_time = by_time.loc[by_time["Occupancy"].idxmin()]
             m1, m2 = st.columns(2)
             with m1:
-                st.markdown(f'<div class="insight"><b>Busiest average slot</b><br>{peak_time["Time_Slot"]} · {peak_time["Occupancy"]:.0f}% occupancy</div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="insight"><b>Busiest average slot</b><br>{peak_time["Time_Slot"]} · {peak_time["Occupancy"]:.2f}% occupancy</div>', unsafe_allow_html=True)
             with m2:
-                st.markdown(f'<div class="insight"><b>Quietest average slot</b><br>{quiet_time["Time_Slot"]} · {quiet_time["Occupancy"]:.0f}% occupancy</div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="insight"><b>Quietest average slot</b><br>{quiet_time["Time_Slot"]} · {quiet_time["Occupancy"]:.2f}% occupancy</div>', unsafe_allow_html=True)
             fig = go.Figure()
             fig.add_trace(go.Scatter(x=by_time["Time_Slot"], y=by_time["Occupancy"], mode="lines+markers",
                 line=dict(color="#54d8f5", width=3), marker=dict(size=9, color="#9a8cff"),
@@ -317,7 +324,7 @@ with pages[2]:
             )
             detail = detail.rename(columns={"Date": "Date", "Day_Name": "Day", "Time_Slot": "Time",
                 "Occupancy": "Occupancy (%)", "Available_Seats": "Estimated free seats", "Crowd_Level": "Typical crowd level"})
-            st.dataframe(detail.round({"Occupancy (%)": 1, "Estimated free seats": 0}),
+            st.dataframe(detail.round({"Occupancy (%)": 2, "Estimated free seats": 2}),
                 use_container_width=True, hide_index=True)
             st.download_button("Download library summary (CSV)", detail.to_csv(index=False).encode("utf-8"),
                 file_name="campus_pulse_library_summary.csv", mime="text/csv")
@@ -333,7 +340,7 @@ with pages[3]:
         c1, c2, c3 = st.columns(3)
         with c1: kpi("Average wait", f"{cafe['Waiting_Time_Min'].mean():.0f} min", "Estimated queue duration")
         with c2: kpi("Peak wait", f"{cafe['Waiting_Time_Min'].max():.0f} min", "Maximum estimated wait")
-        with c3: kpi("Average occupancy", f"{cafe['Occupancy_Rate'].mean():.0f}%", "Of assumed cafeteria capacity")
+        with c3: kpi("Average occupancy", f"{cafe['Occupancy_Rate'].mean():.2f}%", "Of assumed cafeteria capacity")
         section("Queue pattern by time", "Compare average waiting time with occupancy for each time slot.")
         wait = cafe.groupby("Time_Slot", as_index=False).agg(Wait=("Waiting_Time_Min", "mean"), Occupancy=("Occupancy_Rate", "mean"))
         fig = go.Figure()
@@ -369,7 +376,7 @@ with pages[4]:
     with st.expander("Open the complete historical baseline table"):
         display = forecast.rename(columns={"Location": "Campus location", "Time_Slot": "Time",
             "Expected_Occupancy": "Average occupancy (%)", "Expected_Wait": "Average wait (min)"})
-        st.dataframe(display.round(1), use_container_width=True, hide_index=True)
+        st.dataframe(display.round(2), use_container_width=True, hide_index=True)
 
 st.markdown("---")
 left, right = st.columns([3, 1])
