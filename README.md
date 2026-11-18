@@ -32,7 +32,7 @@ File: `data/christ_campus_pulse_data.csv`
 
 Location names are illustrative dashboard categories. Values are generated for demonstration and do not describe actual campus conditions.
 
-## Deploy on Streamlit Community Cloud
+## Run quality checks\n\nInstall the development test dependency and run the automated dataset checks:\n\n```bash\npip install -r requirements.txt\npip install -r requirements-dev.txt\npython -m compileall -q app.py\npytest -q\n```\n\nGitHub Actions runs the same syntax and dataset checks on pushes to `main` and pull requests targeting `main`.\n\n## Deploy on Streamlit Community Cloud
 
 1. Sign in at https://share.streamlit.io/.
 2. Create an app and select this repository.
